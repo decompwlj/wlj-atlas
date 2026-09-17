@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WLJ Atlas — interactive 2D &amp; 3D sequence graphs</title>
+<meta name="description" content="Explore 100 integer sequences through weight × level + jump. Switch between interactive 2D and 3D graphs, inspect decompositions, and download CSV data.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Rémi Eismann">
+<meta property="og:type" content="website"><meta property="og:site_name" content="WLJ Atlas"><meta property="og:title" content="WLJ Atlas — interactive 2D &amp; 3D sequence graphs">
+<meta property="og:description" content="Explore 100 integer sequences through weight × level + jump. Switch between interactive 2D and 3D graphs, inspect decompositions, and download CSV data.">
+<meta property="og:locale" content="en_US"><meta property="og:image" content="https://decompwlj.org/assets/social-card-atlas.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="WLJ Atlas: 100 sequences and interactive weight–level graph previews">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="WLJ Atlas — interactive 2D &amp; 3D sequence graphs">
+<meta name="twitter:description" content="Explore 100 integer sequences through weight × level + jump. Switch between interactive 2D and 3D graphs, inspect decompositions, and download CSV data."><meta name="twitter:image" content="https://decompwlj.org/assets/social-card-atlas.png">
+<meta name="twitter:image:alt" content="WLJ Atlas: 100 sequences and interactive weight–level graph previews">
+<meta name="theme-color" content="#080e19"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<!-- deployment metadata -->
+<link rel="canonical" href="https://decompwlj.org/explore.html">
+<link rel="sitemap" type="application/xml" href="sitemap.xml">
+<meta property="og:url" content="https://decompwlj.org/explore.html">
+<!-- end deployment metadata -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "WLJ Atlas — interactive 2D & 3D sequence graphs",
+  "url": "https://decompwlj.org/explore.html",
+  "description": "Interactive 2D and 3D exploration of 100 integer sequences through weight × level + jump.",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "WLJ Atlas",
+    "url": "https://decompwlj.org/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Rémi Eismann",
+    "url": "https://decompwlj.com/"
+  }
+}
+</script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./"><span class="brand-mark">wlj</span><span>Sequence atlas<small>WEIGHT × LEVEL + JUMP</small></span></a><a class="source" href="https://decompwlj.com/" target="_blank" rel="noopener">Rémi Eismann · decompwlj ↗</a></header>
+<main class="workspace">
+<aside class="catalog" aria-label="Sequence library">
+<a class="back-atlas" href="./">← All sequences</a>
+<div class="section-label">EXPLORE <span id="catalog-count">100 sequences</span></div>
+<label class="search"><span class="sr-only">Find a sequence by name or OEIS number</span><input id="search" type="search" placeholder="Find sequence or OEIS…" autocomplete="off"></label>
+<div id="sequence-list" class="sequence-list" aria-live="polite"></div>
+<div class="pagination"><button id="previous" disabled aria-label="Previous sequences">←</button><span id="page-info"></span><button id="next" disabled aria-label="Next sequences">→</button></div>
+<div class="catalog-note"><span class="formula">a(n) = k(n)L(n) + d(n)</span><p>One construction.<br>Distinct arithmetic geometries.</p><a href="README.md">Deployment & data guide ↗</a></div>
+</aside>
+<section class="explorer" aria-labelledby="sequence-title">
+<div class="sequence-heading"><div><div class="eyebrow" id="family">PRIME SEQUENCE</div><h1 id="sequence-title">Prime numbers</h1><p id="sequence-description">Loading sequence catalogue…</p></div><a id="oeis" class="oeis" href="https://oeis.org/A000040" target="_blank" rel="noopener">A000040 ↗</a></div>
+<div class="toolbar"><div class="segmented" role="group" aria-label="Projection"><button id="view-3d" aria-pressed="true">3D space</button><button id="view-2d" aria-pressed="false">Weight–level</button></div><div class="view-actions"><button id="reset" title="Reset camera (R)">Reset view</button><button id="rotate" aria-pressed="false">Rotate</button><button id="snapshot">Save PNG</button><button id="compare-toggle" aria-pressed="false" aria-controls="comparison-pane">Compare</button><button id="cinema-open">Cinema</button></div></div>
+<div class="graph-layout" id="graph-layout"><div class="graph-wrap" id="primary-pane"><div class="pane-heading" id="primary-label" hidden></div><div class="cinema-label" hidden><span id="cinema-name"></span><small id="cinema-oeis"></small></div><div class="cinema-controls" hidden><button id="cinema-play" aria-pressed="false">Play rotation</button><button id="cinema-dimension">Switch to 2D</button><button id="cinema-exit">Exit cinema</button></div><div id="viewport" tabindex="0" role="img" aria-label="Interactive three-dimensional scatter plot. Drag to orbit, scroll to zoom. Arrow keys rotate, plus and minus zoom, R resets."><div id="graph-message" role="status">Preparing graph…</div></div><div class="plot-caption"><span id="axis-caption">x: ln k · y: ln L · z: ln d</span><span>Equal weight & level scales</span></div></div>
+<section class="graph-wrap compare-wrap" id="comparison-pane" aria-label="Second sequence" hidden>
+<div class="compare-settings"><label for="compare-sequence">Compare with</label><select id="compare-sequence" aria-label="Second sequence"></select><div class="compare-options"><label><input id="compare-sync" type="checkbox" checked> Linked cameras</label><label><input id="compare-scale" type="checkbox" checked> Same axis scales</label></div></div>
+<div id="compare-viewport" tabindex="0" role="img" aria-label="Second sequence scatter plot. Arrow keys move the camera, plus and minus zoom, R resets."></div><div class="plot-caption"><span id="compare-status" role="status">Choose a sequence</span><button id="compare-retry" hidden>Retry</button></div><div id="compare-detail" class="point-detail" aria-live="polite">Click a point to inspect its decomposition.</div>
+</section>
+<aside class="inspector" aria-label="Plot controls and details">
+<div class="section-label">DISPLAY</div>
+<label class="control-label" for="budget">Point budget</label><select id="budget"><option value="25000">25,000</option><option value="50000">50,000</option><option value="100000">100,000</option><option value="200000" selected>200,000</option></select>
+<label class="control-label" for="size">Point size <output id="size-value">2.0</output></label><input id="size" type="range" min="1" max="5" step="0.25" value="2">
+<div class="section-label spaced">CLASSIFICATION</div>
+<label class="legend-row"><input id="weight" type="checkbox" checked><span class="swatch weight"></span><span>Weight <small>k ≤ L (ties included)</small></span></label>
+<label class="legend-row"><input id="level" type="checkbox" checked><span class="swatch level"></span><span>Level <small>k &gt; L</small></span></label>
+<label class="legend-row"><input id="diagonal" type="checkbox" checked><span>k = L guide</span></label>
+<div class="stats"><div><span>Loaded points</span><strong id="loaded">0</strong></div><div><span>Sequence points</span><strong id="total">—</strong></div><div><span>Unclassified terms</span><strong id="excluded">—</strong></div><div><span>Level share · full data</span><strong id="level-share">—</strong></div></div>
+<div class="section-label spaced">POINT INSPECTOR</div><div id="point-detail" class="point-detail">Click a point to inspect its exact decomposition.</div>
+<button id="download" class="wide" disabled>Download loaded CSV ↓</button>
+<details><summary>Reading this graph</summary><p>Every plotted term satisfies a = kL + d. Coordinates use natural logarithms. In the weight–level projection, equal scales make the diagonal k = L meaningful. For fixed l = a − d, kL = l is a hyperbola in raw coordinates and a straight line in log coordinates.</p><p>Unclassified terms have k = L = 0 and cannot appear on logarithmic axes. Counts describe computed data, not asymptotic densities.</p></details>
+</aside></div>
+<footer class="statusbar"><div><progress id="progress" value="0" max="200000" aria-label="Sequence loading progress"></progress><span id="status" role="status">Loading…</span><button id="retry" hidden>Retry</button></div><span id="gestures">Drag to orbit · scroll to zoom · right-drag to pan</span></footer>
+</section></main>
+<noscript>This atlas needs JavaScript and a WebGL2-capable browser. Raw sequence CSV files are available in the data folder.</noscript>
+<script type="module" src="js/app.js"></script>
+</body></html>
