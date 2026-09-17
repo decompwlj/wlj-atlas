@@ -1,0 +1,616 @@
+{
+  "date": "2026-09-14T08:14:17.249Z",
+  "sequences": [
+    {
+      "id": "natural",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "primes",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "composites",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "odd",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "even",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "triangular",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "squares",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "pentagonal",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "pronic",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "squarefree",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "primes-1-mod-4",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "primes-3-mod-4",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a001651",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a001839",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a001855",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a002113",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a006446",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a006567",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 12
+    },
+    {
+      "id": "a000028",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a000037",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a000069",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a000093",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a000201",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a000378",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a000379",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a000469",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a000788",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a000961",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a000977",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 0
+    },
+    {
+      "id": "a001043",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a001097",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a001358",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a001359",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a001481",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a001751",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a001952",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a001969",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a002476",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a002822",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a003052",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a003136",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a003277",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a003601",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a003628",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a003631",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a005100",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a005101",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a005349",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a005384",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a005385",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a003726",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004215",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a005153",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a006093",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a006450",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a006512",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a006753",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a006995",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a007510",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a007770",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a007528",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a007606",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a007618",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a007957",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a008364",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a008846",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a008851",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a008864",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a010061",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a010784",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a010064",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a011531",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a011539",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a011540",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a013939",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a014076",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a014190",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a014261",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 9
+    },
+    {
+      "id": "a014263",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 10
+    },
+    {
+      "id": "a014574",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a014612",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a014613",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a014614",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a014688",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a015911",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a016052",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a016096",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a018825",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a019506",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a020670",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a020756",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a020757",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a022544",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a022549",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a022559",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a022839",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a023197",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a023200",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a023201",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    },
+    {
+      "id": "a022841",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
+    }
+  ],
+  "workerTests": [
+    "worker: all 200k points, transfer buffers, subdirectory paths and backpressure",
+    "worker: compressed manifest accepts CSV already decoded by HTTP",
+    "worker: missing chunk produces an explicit partial-load error",
+    "worker: 25k budget fetches only one chunk",
+    "worker: active load can be terminated after its first chunk",
+    "catalogue: 20,000 synthetic entries return only 20 visible results"
+  ],
+  "totalPoints": 20000000,
+  "browserTested": false,
+  "notes": "Node checks exercise real CSV parser and worker modules. WebGL rendering and browser interactions have not been tested in a browser."
+}

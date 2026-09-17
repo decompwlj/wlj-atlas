@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "oeis": "A001651",
+      "prefixMatches": 20,
+      "rows": 200002,
+      "lastTerm": 300002
+    },
+    {
+      "oeis": "A001839",
+      "prefixMatches": 17,
+      "rows": 200004,
+      "lastTerm": 6667100007
+    },
+    {
+      "oeis": "A001855",
+      "prefixMatches": 20,
+      "rows": 200004,
+      "lastTerm": 3337929
+    },
+    {
+      "oeis": "A002113",
+      "prefixMatches": 20,
+      "rows": 200005,
+      "lastTerm": 10000500001
+    },
+    {
+      "oeis": "A006446",
+      "prefixMatches": 20,
+      "rows": 200003,
+      "lastTerm": 4444688892
+    },
+    {
+      "oeis": "A006567",
+      "prefixMatches": 20,
+      "rows": 200012,
+      "lastTerm": 18366437
+    }
+  ],
+  "scope": "OEIS prefix comparisons; full independent recurrences for A001839 and A001855; full predicates/gap checks for A001651, A002113, A006446; sampled emirp primality via independent trial division. Raw b-files were not accessible; prefix values came from the OEIS entry pages."
+}

@@ -1,0 +1,17 @@
+{
+  "name": "decompwlj-static-atlas",
+  "version": "1.3.0",
+  "private": true,
+  "type": "module",
+  "description": "Buildless static three.js WLJ viewer with PARI/GP data generation",
+  "scripts": {
+    "pack-data": "node tools/pack-data.mjs",
+    "check": "node tools/check.mjs",
+    "configure": "node tools/configure.mjs",
+    "dev": "vite",
+    "check:shaders": "node tools/check-shaders.mjs"
+  },
+  "devDependencies": {
+    "vite": "6.3.5"
+  }
+}

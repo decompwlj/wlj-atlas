@@ -1,0 +1,1 @@
+decomp(a,b)={my(d=b-a,l); if(a<=2*d,return([0,0,d])); l=a-d; fordiv(l,k, if(k>d, return([k,l/k,d])))}

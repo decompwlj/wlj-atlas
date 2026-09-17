@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a007528",
+    "publishedRowsMatched": 10000,
+    "sampledWeightsChecked": 1005,
+    "terms": 200002,
+    "points": 200000,
+    "referenceSHA256": "4c016e8dfae2bafe118408096f3714efb30b54258bb674641e5bce3adb4a097e"
+  },
+  {
+    "id": "a007606",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200002,
+    "points": 200000,
+    "referenceSHA256": "fc3d7723298139608c38e36b14fdb480a079e2a75c197e873df57ca1b234bb01"
+  },
+  {
+    "id": "a007618",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200001,
+    "points": 200000,
+    "referenceSHA256": "4ae75cb56511ea1c3056295817b37b57d374266163733d40f9177e7e6698f41f"
+  },
+  {
+    "id": "a007957",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200002,
+    "points": 200000,
+    "referenceSHA256": "cca60b86925523bf7d5574e7ea5c8b1eea1b2f733e889bb6a70d71bb73c0a787"
+  },
+  {
+    "id": "a008364",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200001,
+    "points": 200000,
+    "referenceSHA256": "efcd7241ed46d19283825bbbf731cfbc78fa8565ae5c3632347df6662fabaa03"
+  },
+  {
+    "id": "a008846",
+    "publishedRowsMatched": 10000,
+    "sampledWeightsChecked": 1005,
+    "terms": 200001,
+    "points": 200000,
+    "referenceSHA256": "3d7d4d4bef710111f710e3736920f6212ebeb7be86d6e402b3cb9b9b6dd64b61"
+  },
+  {
+    "id": "a008851",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200003,
+    "points": 200000,
+    "referenceSHA256": "88c9a41bdbc239e13147db346039889418f1509c3ade8ce161bc84eea98a8837"
+  },
+  {
+    "id": "a008864",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1006,
+    "terms": 200002,
+    "points": 200000,
+    "referenceSHA256": "c7eaf783795e8f249b07ef0212061480add489667cc2b1ac09dcc2d64a54d85d"
+  },
+  {
+    "id": "a010061",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200003,
+    "points": 200000,
+    "referenceSHA256": "5145ec7cce04c0461258b88cb86c00fead763505a3fb3e035d7228c3f5ce907e"
+  },
+  {
+    "id": "a010784",
+    "publishedRowsMatched": 9999,
+    "sampledWeightsChecked": 1005,
+    "terms": 200003,
+    "points": 200000,
+    "referenceSHA256": "97e744eb91cb8d7ce22330049cc995dde50166db7e3f803d9063efb99270a320"
+  }
+]

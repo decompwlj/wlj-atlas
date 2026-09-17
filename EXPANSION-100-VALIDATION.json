@@ -1,0 +1,246 @@
+{
+  "sequences": [
+    {
+      "id": "a010064",
+      "source": "https://decompwlj.com/csv/A010064decomp.csv",
+      "sourceSHA256": "ec0932edbaa17b2043b4e52550f99d12ea75f8d09206a1c28dc04d32488ff53d",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a011531",
+      "source": "https://decompwlj.com/csv/A011531decomp.csv",
+      "sourceSHA256": "c0bcd4c1753eb7e95a825b00556c5148faf621d88f6c1e8c1ca9c0a5fdfaedbb",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a011539",
+      "source": "https://decompwlj.com/csv/A011539decomp.csv",
+      "sourceSHA256": "a4b9cfcfb6dbac2d6f0495ea1533b960cb5b2e9c54175e4acc563f44af8b6faf",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a011540",
+      "source": "https://decompwlj.com/csv/A011540decomp.csv",
+      "sourceSHA256": "eaabb12844843a1d9d558dd59bab08c52005bc0cef0dc39e4400e840dc6c3f7b",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a013939",
+      "source": "https://decompwlj.com/csv/A013939decomp.csv",
+      "sourceSHA256": "d44cdd2b18712c05e88657efafa03a22812a2ca61e9ae2f14043afb61744e657",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014076",
+      "source": "https://decompwlj.com/csv/A014076decomp.csv",
+      "sourceSHA256": "f606136c8c680590a174fc786e229036e93e6d7ce0faf5b0724b2b6eb5c0f44b",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014190",
+      "source": "https://decompwlj.com/csv/A014190decomp.csv",
+      "sourceSHA256": "7db47f8ac2c7f86d46955f65ec3ff07085d18408ce10311e5d92b6a6cbc960ab",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014261",
+      "source": "https://decompwlj.com/csv/A014261decomp.csv",
+      "sourceSHA256": "8cdcc0300eff3eef5d373a9390aee7bd4aa48c356d891bfd167564e8f3f23aa4",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014263",
+      "source": "https://decompwlj.com/csv/A014263decomp.csv",
+      "sourceSHA256": "b341a7ad2f3f63aa638aee004da7e0d2bce708263ec0caebf2c14a8f5ca72121",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014574",
+      "source": "https://decompwlj.com/csv/A014574decomp.csv",
+      "sourceSHA256": "afd538229a40eb5e462506fffcd425323cc76a6a3bd0bfffa09220adb597dbfb",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014612",
+      "source": "https://decompwlj.com/csv/A014612decomp.csv",
+      "sourceSHA256": "9a9091de483001741307adc0e9936047b1b18c19d9de5a3a6097f97a1b728233",
+      "referenceRowsCompared": 10000,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014613",
+      "source": "https://decompwlj.com/csv/A014613decomp.csv",
+      "sourceSHA256": "868820aef71870b84c464d3a75b70eaf5860df23ae0167cb6d6822af0c47081a",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014614",
+      "source": "https://decompwlj.com/csv/A014614decomp.csv",
+      "sourceSHA256": "55b5936d394f54e14f784c293b52c9ec7b043145c88a1ea075a940368bcb531f",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a014688",
+      "source": "https://decompwlj.com/csv/A014688decomp.csv",
+      "sourceSHA256": "030cdb42725b1ce63b23bc6ff2e39fa8ef7176ce74a2129e31a3bf094b0d3260",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a015911",
+      "source": "https://decompwlj.com/csv/A015911decomp.csv",
+      "sourceSHA256": "1c0ff29b18db56d77a9798975308f26ccc16989df1d0f7f806700a49927fe47a",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a016052",
+      "source": "https://decompwlj.com/csv/A016052decomp.csv",
+      "sourceSHA256": "f003382120c29647f0f3fc6436e74330a020c9f76332d3d4b6889b5d6c4d7aff",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a016096",
+      "source": "https://decompwlj.com/csv/A016096decomp.csv",
+      "sourceSHA256": "376bf75954870328e89392b88057801e6b94838c8ec3a05796b90d4ecf92abb1",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a018825",
+      "source": "https://decompwlj.com/csv/A018825decomp.csv",
+      "sourceSHA256": "a56e8c8933b9dd89f16c362f0da9bcba1c5423d2dd38911a42b147444967b075",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a019506",
+      "source": "https://decompwlj.com/csv/A019506decomp.csv",
+      "sourceSHA256": "802abfa8c98f2372b0d480f0b704e3b9509980a78364eb7fa231b5d8850a923d",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a020670",
+      "source": "https://decompwlj.com/csv/A020670decomp.csv",
+      "sourceSHA256": "264f6b3460fcf378bf36f45bc2a3bc666e234d019435592bd8f17085bb88bd47",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a020756",
+      "source": "https://decompwlj.com/csv/A020756decomp.csv",
+      "sourceSHA256": "f1a4017eca3f6e7fbbc88bb045bb89b70758ca5e720bda0fd7c78a33d7baba53",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a020757",
+      "source": "https://decompwlj.com/csv/A020757decomp.csv",
+      "sourceSHA256": "4bbc768c1fcd53170336de116a438e9d74e2dd994206ac9be7128d847c0fe9bd",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a022544",
+      "source": "https://decompwlj.com/csv/A022544decomp.csv",
+      "sourceSHA256": "4bd927c4df1dd0a447167075335702c94c87ce0ca52ceb621cead4b5ac551a1b",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a022549",
+      "source": "https://decompwlj.com/csv/A022549decomp.csv",
+      "sourceSHA256": "e96c5d703c569d5062a345b970f8ab4aaac25663fd383e73d0fe1693a491bd4e",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a022559",
+      "source": "https://decompwlj.com/csv/A022559decomp.csv",
+      "sourceSHA256": "850559c7673c3505ab1cadf9e7e5ce5f1c28e30edb605a0cf00a9ddefd696887",
+      "referenceRowsCompared": 10000,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a022839",
+      "source": "https://decompwlj.com/csv/A022839decomp.csv",
+      "sourceSHA256": "9e32ef67baf8d28fdbcb097d5eee7fa548ec6ff32af91f1e17d11d24c9c2f200",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a023197",
+      "source": "https://decompwlj.com/csv/A023197decomp.csv",
+      "sourceSHA256": "7bfdab047b33e7e2ae6c9a5f7412644eef3804472e3c0d414f687b1d38c67c69",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a023200",
+      "source": "https://decompwlj.com/csv/A023200decomp.csv",
+      "sourceSHA256": "5a0c614a36be9292b429f0c9c48e0ae9197b98f6401d059df193bc5700d4f5ac",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    },
+    {
+      "id": "a023201",
+      "source": "https://decompwlj.com/csv/A023201decomp.csv",
+      "sourceSHA256": "1c9071e6475d10d36462740da3a3bc96bc69069535598266ad3ecbdeefa06e65",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 101
+    },
+    {
+      "id": "a022841",
+      "source": "https://decompwlj.com/csv/A022841decomp.csv",
+      "sourceSHA256": "6b793800ec1f43b2e745cc2b96e6ab39f4d322ddd73007b643016c7d8cf65c62",
+      "referenceRowsCompared": 9999,
+      "points": 200000,
+      "independentMinimalWeightChecks": 100
+    }
+  ],
+  "totalNewPoints": 6000000,
+  "finalSequenceCount": 100
+}

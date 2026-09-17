@@ -1,0 +1,264 @@
+{
+  "date": "2026-09-08",
+  "source": "https://decompwlj.com/2dgraphs.php",
+  "sequences": [
+    {
+      "oeis": "A000028",
+      "sourceCSV": "https://decompwlj.com/csv/A000028decomp.csv",
+      "sourceSHA256": "19bc1a3677b6a17f8395c32a64ccfe61e52eeeb5a15a2d3f54ebca0376898224",
+      "sourceBytes": 192519,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000037",
+      "sourceCSV": "https://decompwlj.com/csv/A000037decomp.csv",
+      "sourceSHA256": "a2464eaae03ff9f4f4c21281d076f5762cb9ccb7960017820e6f52bc0d1cd391",
+      "sourceBytes": 183267,
+      "matchingRows": 9899,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000069",
+      "sourceCSV": "https://decompwlj.com/csv/A000069decomp.csv",
+      "sourceSHA256": "97c9bf5860a7afd497ea7ee49811f76ba06057960975019c1b7cd25c81dc413e",
+      "sourceBytes": 192586,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000093",
+      "sourceCSV": "https://decompwlj.com/csv/A000093decomp.csv",
+      "sourceSHA256": "4c4cb15133d09ee6c20edca305637e20ccb37efde99fa38b538f9a2d8fe267ee",
+      "sourceBytes": 236152,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000201",
+      "sourceCSV": "https://decompwlj.com/csv/A000201decomp.csv",
+      "sourceSHA256": "82b4f22fabb73390467a2bb2190a8c2beb8b8a6226f18dfdd881f54b6961e545",
+      "sourceBytes": 190596,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000378",
+      "sourceCSV": "https://decompwlj.com/csv/A000378decomp.csv",
+      "sourceSHA256": "63ea424c46fe3918a3b4f28f400acf82c6221df2638b51d80d6b3e170ad97f0b",
+      "sourceBytes": 187338,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000379",
+      "sourceCSV": "https://decompwlj.com/csv/A000379decomp.csv",
+      "sourceSHA256": "26917d328607feea84acf2237ca721e7b7b056331d80756866f85d448d035b5d",
+      "sourceBytes": 192539,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000469",
+      "sourceCSV": "https://decompwlj.com/csv/A000469decomp.csv",
+      "sourceSHA256": "da0e1bebd42a61e21ee6dda9c6a6c65af91a371f53b0e3c7ec7e68a9e487c3b1",
+      "sourceBytes": 192908,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000788",
+      "sourceCSV": "https://decompwlj.com/csv/A000788decomp.csv",
+      "sourceSHA256": "1f4cf95713bc280a7474b66ab32f62017fa1ea2f819a5aee141cd6af92ce3388",
+      "sourceBytes": 200914,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000961",
+      "sourceCSV": "https://decompwlj.com/csv/A000961decomp.csv",
+      "sourceSHA256": "7f897c871a05b3dffd80426fe0cff18f10b0f86c7e816bb1f727f37b1d27ac5f",
+      "sourceBytes": 207853,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A000977",
+      "sourceCSV": "https://decompwlj.com/csv/A000977decomp.csv",
+      "sourceSHA256": "d88eca8b7fc7852e7b87769c4f5740cb2307e10c4c60ac83ae2c1af9fda2f6dd",
+      "sourceBytes": 193251,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001043",
+      "sourceCSV": "https://decompwlj.com/csv/A001043decomp.csv",
+      "sourceSHA256": "35e6ef1541c33eaa8b3eff9070072fa25efb6ea5f696ff60b649a3392de4642e",
+      "sourceBytes": 220628,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001097",
+      "sourceCSV": "https://decompwlj.com/csv/A001097decomp.csv",
+      "sourceSHA256": "ce4d0e9d9271d2b76232c5b2ae46c358e1f6912657ac9f1132bb09788bb2bbf2",
+      "sourceBytes": 225483,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001358",
+      "sourceCSV": "https://decompwlj.com/csv/A001358decomp.csv",
+      "sourceSHA256": "56ebaf2ace2bf05b7347128c3c869da44f16131294d28203720da1617bdb1809",
+      "sourceBytes": 198480,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001359",
+      "sourceCSV": "https://decompwlj.com/csv/A001359decomp.csv",
+      "sourceSHA256": "ce7d666fde21321fb5a9bb210e13a52040dd69e83f5f24874739bcdd5c73bc88",
+      "sourceBytes": 240493,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001481",
+      "sourceCSV": "https://decompwlj.com/csv/A001481decomp.csv",
+      "sourceSHA256": "47512d7bfe689e91bc5501508a6200ec25f09e87a67713c3076d1cbe1af0744e",
+      "sourceBytes": 197913,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001751",
+      "sourceCSV": "https://decompwlj.com/csv/A001751decomp.csv",
+      "sourceSHA256": "36864f144b5d49e2cd9a46139edf4d4d1fccc86546322751f7e124406a449c0c",
+      "sourceBytes": 202254,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001952",
+      "sourceCSV": "https://decompwlj.com/csv/A001952decomp.csv",
+      "sourceSHA256": "175ba8f5fd222af6497f9d17bfecf50e93c141eb37b379c3d3e4352afa531b95",
+      "sourceBytes": 196140,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A001969",
+      "sourceCSV": "https://decompwlj.com/csv/A001969decomp.csv",
+      "sourceSHA256": "622bffae611e2622ba397ea2c9393859d8a5907286376fd2c5c58c331829bbb8",
+      "sourceBytes": 192376,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A002476",
+      "sourceCSV": "https://decompwlj.com/csv/A002476decomp.csv",
+      "sourceSHA256": "738ede9bd82c449ecdd457ad1f234472e49f1d20ad4cb8770ee51e8e35a10a5a",
+      "sourceBytes": 221016,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A002822",
+      "sourceCSV": "https://decompwlj.com/csv/A002822decomp.csv",
+      "sourceSHA256": "ed950eb2618f712ac3a4fd4495cfc337ee319cec5ef94877f5aa5528440a1598",
+      "sourceBytes": 217971,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A003052",
+      "sourceCSV": "https://decompwlj.com/csv/A003052decomp.csv",
+      "sourceSHA256": "a1a52ee320a04ae4da0c2509ad5a5a94247a6e7611d51d94000e0973af8d6e27",
+      "sourceBytes": 214040,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A003136",
+      "sourceCSV": "https://decompwlj.com/csv/A003136decomp.csv",
+      "sourceSHA256": "bf5a5a976f3afb76ed80cc538fbb31af7cee4d778425d3a210fbb1e86227f9e0",
+      "sourceBytes": 200369,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A003277",
+      "sourceCSV": "https://decompwlj.com/csv/A003277decomp.csv",
+      "sourceSHA256": "a6eb25902690a6f31aeba1cc73071dc555c6fa6724430ab17f4bad0cfaddc257",
+      "sourceBytes": 195935,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A003601",
+      "sourceCSV": "https://decompwlj.com/csv/A003601decomp.csv",
+      "sourceSHA256": "2c6dedf6048a713071b02eaf25a9ea8fc00ff13ae6d255d91108d35896d46c04",
+      "sourceBytes": 188628,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A003628",
+      "sourceCSV": "https://decompwlj.com/csv/A003628decomp.csv",
+      "sourceSHA256": "37e13e06f6c137d76bdbe228ea6811603f18305849f24f8bf9ff2e93e7c8df36",
+      "sourceBytes": 219698,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A003631",
+      "sourceCSV": "https://decompwlj.com/csv/A003631decomp.csv",
+      "sourceSHA256": "8d692683ce4ee7deac12e209aa773b17b45b4e1d783651025c232e388c1539ff",
+      "sourceBytes": 220128,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A005100",
+      "sourceCSV": "https://decompwlj.com/csv/A005100decomp.csv",
+      "sourceSHA256": "0c2efdff5f6f27bcaa45658577b2789fa4440daac2b07822d03edc217491c7a5",
+      "sourceBytes": 188624,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A005101",
+      "sourceCSV": "https://decompwlj.com/csv/A005101decomp.csv",
+      "sourceSHA256": "a6ab419409e43bd071006837b9fd196d01e199d8ef18159b194d0aefb3160209",
+      "sourceBytes": 196315,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A005349",
+      "sourceCSV": "https://decompwlj.com/csv/A005349decomp.csv",
+      "sourceSHA256": "bc5ab8cfd0892e3a25bf141e9eb36b3289e8780e30251e8bc3a61941b5baa5cf",
+      "sourceBytes": 204917,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A005384",
+      "sourceCSV": "https://decompwlj.com/csv/A005384decomp.csv",
+      "sourceSHA256": "c41a22317ef8a2b58e1fb8eb33abd23bbe8bcd20f586724cfe78c2abcaf5a81b",
+      "sourceBytes": 241495,
+      "matchingRows": 10000,
+      "fixtureRows": 1000
+    },
+    {
+      "oeis": "A005385",
+      "sourceCSV": "https://decompwlj.com/csv/A005385decomp.csv",
+      "sourceSHA256": "23060955889eff8594a76e5cb3d1b5e63a55a008a83576f72901d2dc2bd4d499",
+      "sourceBytes": 251287,
+      "matchingRows": 9999,
+      "fixtureRows": 1000
+    }
+  ],
+  "totalMatchingRows": 319879,
+  "notes": "All available rows of the 32 source CSVs matched recomputed data, field for field. The first 1,000 per source are included for reproducible PARI/GP checks. This independently checks agreement with published data; full generated data are also checked by the parser and sampled minimal-divisor audit."
+}

@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-13",
+  "source": "https://decompwlj.com/2dgraphs.php",
+  "sequences": [
+    {
+      "id": "a003726",
+      "sourceCSV": "https://decompwlj.com/csv/A003726decomp.csv",
+      "sourceSHA256": "7e85ab5e8bab407c9c78ac7abc33c12638d6cafed3ff0bd5bd70f1f58c702c88",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "5386d1f85fe4e7acca70c06e3fb7426c57f02e962e7ac4f83cd3f0a2f56ddef4",
+      "terms": 200003,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a004215",
+      "sourceCSV": "https://decompwlj.com/csv/A004215decomp.csv",
+      "sourceSHA256": "0728809363700d8bd778cbf53778fd4f08b6dc3eae6afbb8f3cf9493112ba627",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "06acc8eef2c40cfa6eda22a295bd3635d7e42d1ec66376a59ef38abad2d1481b",
+      "terms": 200002,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a005153",
+      "sourceCSV": "https://decompwlj.com/csv/A005153decomp.csv",
+      "sourceSHA256": "7f015dde79a1a63dd1cb33a70780d9cf4f98b1151b32f75600656d77ae82d2cc",
+      "matchingSourceRows": 10000,
+      "generatedSHA256": "9585bb11852b2f2305869095266c693fd50d12629c5a917fde169230b074fcbf",
+      "terms": 200004,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a006093",
+      "sourceCSV": "https://decompwlj.com/csv/A006093decomp.csv",
+      "sourceSHA256": "383f3babf71f36db4eb3c25bb5ea42b7f8862d28cce9e3d7186695999ec02248",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "11611212350ed986d29a0762836dddb1325a5bfe2ac270a1ca2916f7de00c263",
+      "terms": 200004,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a006450",
+      "sourceCSV": "https://decompwlj.com/csv/A006450decomp.csv",
+      "sourceSHA256": "dfdc7e44639f9ff059bb71bc9896a94ea2295faed3607794ac46debbd2f868aa",
+      "matchingSourceRows": 10000,
+      "generatedSHA256": "ca280fce29a5a5d569c7509181110fe5ce838bb699dbbd2f3a0f7a4f52f056f6",
+      "terms": 200004,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a006512",
+      "sourceCSV": "https://decompwlj.com/csv/A006512decomp.csv",
+      "sourceSHA256": "d8b58e05060fe66e7720c301d7003dab5a43d5ba426f8dd77b1a0a00eb84235d",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "92cd95d946972bcf92ca440b8aa3dc227644daf72d3cddd438dcddf1681f5b74",
+      "terms": 200002,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a006753",
+      "sourceCSV": "https://decompwlj.com/csv/A006753decomp.csv",
+      "sourceSHA256": "cd3af3e9a586f8105d34b6a6e411b94deee515d090f5a35d8c16cf3bc36022ad",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "4021534738063bb53e2d22275d8965c3556cf0266445962b63d51f9f27554c81",
+      "terms": 200002,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a006995",
+      "sourceCSV": "https://decompwlj.com/csv/A006995decomp.csv",
+      "sourceSHA256": "dc162d274659512bbddfd2afb445db0bc7e9dbf46491725dc16e2e038fe8a9ba",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "8b9d2517b88c1dbcfa7fc5c2639bf0e0784a2164befe6c93ea4bd2f8e7eb4853",
+      "terms": 200004,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a007510",
+      "sourceCSV": "https://decompwlj.com/csv/A007510decomp.csv",
+      "sourceSHA256": "93692304810807869c42b8d6693b0e7a52c74be67aa88208f46c45f40dc49285",
+      "matchingSourceRows": 9999,
+      "generatedSHA256": "24b4999eb9ddc6999d01fe965491248fcc48566a965867e03108219233b65dca",
+      "terms": 200002,
+      "generatorRegressionPoints": 1100
+    },
+    {
+      "id": "a007770",
+      "sourceCSV": "https://decompwlj.com/csv/A007770decomp.csv",
+      "sourceSHA256": "4bce66085bd7e2fdbd6b3935745240e60009000fe13f4440ffa7a51807c9a554",
+      "matchingSourceRows": 10000,
+      "generatedSHA256": "dab3c5fa17bf452a9d8370b5e2fb1efa3523aeabe93395b55404365a828558b6",
+      "terms": 200001,
+      "generatorRegressionPoints": 1100
+    }
+  ],
+  "browserTested": false,
+  "matchingSourceRows": 99993,
+  "fixtureRowsCompared": 10000,
+  "minimalWeightSamplesAudited": 10230,
+  "newPoints": 2000000
+}

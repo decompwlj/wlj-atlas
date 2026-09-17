@@ -1,0 +1,887 @@
+[
+  {
+    "id": "natural",
+    "name": "Natural numbers",
+    "oeis": "A000027",
+    "family": "ARITHMETIC",
+    "description": "Positive integers, a(n) = n. The unit-gap base case."
+  },
+  {
+    "id": "primes",
+    "name": "Prime numbers",
+    "oeis": "A000040",
+    "family": "PRIME SEQUENCE",
+    "description": "The increasing sequence of primes. Each jump is the next prime gap."
+  },
+  {
+    "id": "composites",
+    "name": "Composite numbers",
+    "oeis": "A002808",
+    "family": "COMPOSITE SEQUENCE",
+    "description": "Positive composite integers, beginning 4, 6, 8, 9, 10, …"
+  },
+  {
+    "id": "odd",
+    "name": "Odd numbers",
+    "oeis": "A005408",
+    "family": "ARITHMETIC",
+    "description": "Positive odd integers, a(n) = 2n − 1. Constant jump d = 2."
+  },
+  {
+    "id": "even",
+    "name": "Even numbers",
+    "oeis": "A005843",
+    "family": "ARITHMETIC",
+    "description": "Positive even integers, a(n) = 2n. The OEIS entry also includes 0."
+  },
+  {
+    "id": "triangular",
+    "name": "Triangular numbers",
+    "oeis": "A000217",
+    "family": "FIGURATE",
+    "description": "Positive triangular numbers, a(n) = n(n + 1)/2. The OEIS entry also includes 0."
+  },
+  {
+    "id": "squares",
+    "name": "Square numbers",
+    "oeis": "A000290",
+    "family": "FIGURATE",
+    "description": "Positive squares, a(n) = n². The OEIS entry also includes 0."
+  },
+  {
+    "id": "pentagonal",
+    "name": "Pentagonal numbers",
+    "oeis": "A000326",
+    "family": "FIGURATE",
+    "description": "Positive pentagonal numbers, a(n) = n(3n − 1)/2. The OEIS entry also includes 0."
+  },
+  {
+    "id": "pronic",
+    "name": "Pronic numbers",
+    "oeis": "A002378",
+    "family": "FIGURATE",
+    "description": "Products of consecutive positive integers, a(n) = n(n + 1). The OEIS entry also includes 0."
+  },
+  {
+    "id": "squarefree",
+    "name": "Squarefree numbers",
+    "oeis": "A005117",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers divisible by no prime square, beginning 1, 2, 3, 5, 6, …"
+  },
+  {
+    "id": "primes-1-mod-4",
+    "name": "Primes ≡ 1 (mod 4)",
+    "oeis": "A002144",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes of the form 4m + 1. The jump goes to the next prime in this subsequence."
+  },
+  {
+    "id": "primes-3-mod-4",
+    "name": "Primes ≡ 3 (mod 4)",
+    "oeis": "A002145",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes of the form 4m + 3. The jump goes to the next prime in this subsequence."
+  },
+  {
+    "id": "a001651",
+    "name": "Not divisible by 3",
+    "oeis": "A001651",
+    "family": "MODULAR",
+    "description": "Positive integers not divisible by 3: a(n) = floor((3n − 1)/2)."
+  },
+  {
+    "id": "a001839",
+    "name": "Triangle packing numbers",
+    "oeis": "A001839",
+    "family": "CODING THEORY",
+    "description": "A(n,4,3). Strictly increasing tail from OEIS n = 4; the initial 0, 0, 1 prefix is omitted.",
+    "indexOrigin": 4,
+    "omittedPrefix": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "a001855",
+    "name": "Binary-insertion sorting numbers",
+    "oeis": "A001855",
+    "family": "ALGORITHMIC",
+    "description": "Worst-case binary-insertion comparison counts. Original OEIS indices retained; a(1) = 0 is unclassified."
+  },
+  {
+    "id": "a002113",
+    "name": "Decimal palindromes",
+    "oeis": "A002113",
+    "family": "DIGITS",
+    "description": "Base-10 palindromes in increasing order. Original OEIS indices retained, including a(1) = 0 in the unclassified count."
+  },
+  {
+    "id": "a006446",
+    "name": "Floor-root divisibility numbers",
+    "oeis": "A006446",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers a for which floor(sqrt(a)) divides a."
+  },
+  {
+    "id": "a006567",
+    "name": "Emirps",
+    "oeis": "A006567",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes whose decimal reversal is a different prime. Jumps go to the next emirp."
+  },
+  {
+    "id": "a000028",
+    "name": "Odd exponent-bit parity",
+    "oeis": "A000028",
+    "family": "FACTORIZATION",
+    "description": "Integers whose prime-factor exponents have an odd total binary popcount.",
+    "source": "https://decompwlj.com/2dgraphs.php",
+    "sourceCSV": "https://decompwlj.com/csv/A000028decomp.csv"
+  },
+  {
+    "id": "a000037",
+    "name": "Nonsquares",
+    "oeis": "A000037",
+    "family": "COMPLEMENT",
+    "description": "Positive integers that are not perfect squares.",
+    "source": "https://decompwlj.com/2dgraphs.php",
+    "sourceCSV": "https://decompwlj.com/csv/A000037decomp.csv"
+  },
+  {
+    "id": "a000069",
+    "name": "Odious numbers",
+    "oeis": "A000069",
+    "family": "DIGITS",
+    "description": "Nonnegative integers with odd binary popcount.",
+    "source": "https://decompwlj.com/2dgraphs.php",
+    "sourceCSV": "https://decompwlj.com/csv/A000069decomp.csv"
+  },
+  {
+    "id": "a000093",
+    "name": "Floor of n to the 3/2",
+    "oeis": "A000093",
+    "family": "FRACTIONAL POWER",
+    "description": "a(n) = floor(n^(3/2)), computed exactly as the integer square root of n³; n starts at 1.",
+    "source": "https://decompwlj.com/2dgraphs.php",
+    "sourceCSV": "https://decompwlj.com/csv/A000093decomp.csv"
+  },
+  {
+    "id": "a000201",
+    "name": "Lower Wythoff sequence",
+    "oeis": "A000201",
+    "family": "BEATTY",
+    "description": "a(n) = floor(nφ), with φ = (1 + √5)/2; evaluated using integer square roots.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=2",
+    "sourceCSV": "https://decompwlj.com/csv/A000201decomp.csv"
+  },
+  {
+    "id": "a000378",
+    "name": "Sums of three squares",
+    "oeis": "A000378",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers representable as a sum of three integer squares, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=2",
+    "sourceCSV": "https://decompwlj.com/csv/A000378decomp.csv"
+  },
+  {
+    "id": "a000379",
+    "name": "Even exponent-bit parity",
+    "oeis": "A000379",
+    "family": "FACTORIZATION",
+    "description": "Positive integers whose prime-factor exponents have an even total binary popcount.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=2",
+    "sourceCSV": "https://decompwlj.com/csv/A000379decomp.csv"
+  },
+  {
+    "id": "a000469",
+    "name": "Squarefree composites and 1",
+    "oeis": "A000469",
+    "family": "FACTORIZATION",
+    "description": "1 and the squarefree composite integers: products of at least two distinct primes.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=3",
+    "sourceCSV": "https://decompwlj.com/csv/A000469decomp.csv"
+  },
+  {
+    "id": "a000788",
+    "name": "Cumulative binary digit sum",
+    "oeis": "A000788",
+    "family": "DIGITS",
+    "description": "Total binary popcount of 0 through n. Uses your site’s positive-index tail n ≥ 1; a(0) = 0 is omitted.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=3",
+    "sourceCSV": "https://decompwlj.com/csv/A000788decomp.csv",
+    "omittedPrefix": [
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "a000961",
+    "name": "Prime powers",
+    "oeis": "A000961",
+    "family": "PRIME POWERS",
+    "description": "1 and powers p^k of a prime p, with k ≥ 1.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=3",
+    "sourceCSV": "https://decompwlj.com/csv/A000961decomp.csv"
+  },
+  {
+    "id": "a000977",
+    "name": "At least three prime factors",
+    "oeis": "A000977",
+    "family": "FACTORIZATION",
+    "description": "Positive integers with at least three distinct prime divisors.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=3",
+    "sourceCSV": "https://decompwlj.com/csv/A000977decomp.csv"
+  },
+  {
+    "id": "a001043",
+    "name": "Sums of consecutive primes",
+    "oeis": "A001043",
+    "family": "PRIME DERIVED",
+    "description": "a(n) = p(n) + p(n+1), the sum of consecutive primes.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=3",
+    "sourceCSV": "https://decompwlj.com/csv/A001043decomp.csv"
+  },
+  {
+    "id": "a001097",
+    "name": "Twin primes",
+    "oeis": "A001097",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes belonging to at least one twin-prime pair. Each prime is included once.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=3",
+    "sourceCSV": "https://decompwlj.com/csv/A001097decomp.csv"
+  },
+  {
+    "id": "a001358",
+    "name": "Semiprimes",
+    "oeis": "A001358",
+    "family": "FACTORIZATION",
+    "description": "Products of two primes, allowing equal primes.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=4",
+    "sourceCSV": "https://decompwlj.com/csv/A001358decomp.csv"
+  },
+  {
+    "id": "a001359",
+    "name": "Lesser twin primes",
+    "oeis": "A001359",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which p + 2 is prime. Jumps go to the next lesser twin prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=4",
+    "sourceCSV": "https://decompwlj.com/csv/A001359decomp.csv"
+  },
+  {
+    "id": "a001481",
+    "name": "Sums of two squares",
+    "oeis": "A001481",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers representable as a sum of two integer squares, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=4",
+    "sourceCSV": "https://decompwlj.com/csv/A001481decomp.csv"
+  },
+  {
+    "id": "a001751",
+    "name": "Primes and twice primes",
+    "oeis": "A001751",
+    "family": "PRIME DERIVED",
+    "description": "The sorted union of primes and twice primes.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=5",
+    "sourceCSV": "https://decompwlj.com/csv/A001751decomp.csv"
+  },
+  {
+    "id": "a001952",
+    "name": "Beatty: 2 + √2",
+    "oeis": "A001952",
+    "family": "BEATTY",
+    "description": "a(n) = floor(n(2 + √2)), evaluated using integer square roots.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=5",
+    "sourceCSV": "https://decompwlj.com/csv/A001952decomp.csv"
+  },
+  {
+    "id": "a001969",
+    "name": "Evil numbers",
+    "oeis": "A001969",
+    "family": "DIGITS",
+    "description": "Nonnegative integers with even binary popcount, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=5",
+    "sourceCSV": "https://decompwlj.com/csv/A001969decomp.csv"
+  },
+  {
+    "id": "a002476",
+    "name": "Primes ≡ 1 (mod 6)",
+    "oeis": "A002476",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes congruent to 1 modulo 6. Jumps use consecutive terms of this subsequence.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=7",
+    "sourceCSV": "https://decompwlj.com/csv/A002476decomp.csv"
+  },
+  {
+    "id": "a002822",
+    "name": "Twin-prime centers / 6",
+    "oeis": "A002822",
+    "family": "PRIME DERIVED",
+    "description": "Positive integers n for which 6n − 1 and 6n + 1 are both prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=7",
+    "sourceCSV": "https://decompwlj.com/csv/A002822decomp.csv"
+  },
+  {
+    "id": "a003052",
+    "name": "Decimal self numbers",
+    "oeis": "A003052",
+    "family": "DIGITS",
+    "description": "Positive integers absent from the image m + decimal digit sum(m).",
+    "source": "https://decompwlj.com/2dgraphs.php?page=8",
+    "sourceCSV": "https://decompwlj.com/csv/A003052decomp.csv"
+  },
+  {
+    "id": "a003136",
+    "name": "Loeschian numbers",
+    "oeis": "A003136",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers of the form x² + xy + y², including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=8",
+    "sourceCSV": "https://decompwlj.com/csv/A003136decomp.csv"
+  },
+  {
+    "id": "a003277",
+    "name": "Cyclic numbers",
+    "oeis": "A003277",
+    "family": "TOTIENT",
+    "description": "Positive integers a with gcd(a, φ(a)) = 1.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=8",
+    "sourceCSV": "https://decompwlj.com/csv/A003277decomp.csv"
+  },
+  {
+    "id": "a003601",
+    "name": "Integer divisor averages",
+    "oeis": "A003601",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers whose sum of divisors is divisible by their number of divisors.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=8",
+    "sourceCSV": "https://decompwlj.com/csv/A003601decomp.csv"
+  },
+  {
+    "id": "a003628",
+    "name": "Primes ≡ 5 or 7 (mod 8)",
+    "oeis": "A003628",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes congruent to 5 or 7 modulo 8.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=8",
+    "sourceCSV": "https://decompwlj.com/csv/A003628decomp.csv"
+  },
+  {
+    "id": "a003631",
+    "name": "Primes ≡ 2 or 3 (mod 5)",
+    "oeis": "A003631",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes congruent to 2 or 3 modulo 5.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=9",
+    "sourceCSV": "https://decompwlj.com/csv/A003631decomp.csv"
+  },
+  {
+    "id": "a005100",
+    "name": "Deficient numbers",
+    "oeis": "A005100",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers whose sum of all divisors is less than twice the integer.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=11",
+    "sourceCSV": "https://decompwlj.com/csv/A005100decomp.csv"
+  },
+  {
+    "id": "a005101",
+    "name": "Abundant numbers",
+    "oeis": "A005101",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers whose sum of all divisors exceeds twice the integer.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=11",
+    "sourceCSV": "https://decompwlj.com/csv/A005101decomp.csv"
+  },
+  {
+    "id": "a005349",
+    "name": "Harshad numbers",
+    "oeis": "A005349",
+    "family": "DIGITS",
+    "description": "Positive integers divisible by their decimal digit sum.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=12",
+    "sourceCSV": "https://decompwlj.com/csv/A005349decomp.csv"
+  },
+  {
+    "id": "a005384",
+    "name": "Sophie Germain primes",
+    "oeis": "A005384",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which 2p + 1 is also prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=12",
+    "sourceCSV": "https://decompwlj.com/csv/A005384decomp.csv"
+  },
+  {
+    "id": "a005385",
+    "name": "Safe primes",
+    "oeis": "A005385",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which (p − 1)/2 is also prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=12",
+    "sourceCSV": "https://decompwlj.com/csv/A005385decomp.csv"
+  },
+  {
+    "id": "a003726",
+    "name": "Binary numbers without 111",
+    "oeis": "A003726",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no three consecutive 1s, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=9",
+    "sourceCSV": "https://decompwlj.com/csv/A003726decomp.csv"
+  },
+  {
+    "id": "a004215",
+    "name": "Require four squares",
+    "oeis": "A004215",
+    "family": "QUADRATIC FORMS",
+    "description": "Positive integers requiring four nonzero squares: precisely the numbers 4^r(8m + 7), with r, m ≥ 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=9",
+    "sourceCSV": "https://decompwlj.com/csv/A004215decomp.csv"
+  },
+  {
+    "id": "a005153",
+    "name": "Practical numbers",
+    "oeis": "A005153",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers for which every smaller positive integer is a sum of distinct divisors of the integer.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=11",
+    "sourceCSV": "https://decompwlj.com/csv/A005153decomp.csv"
+  },
+  {
+    "id": "a006093",
+    "name": "Primes minus one",
+    "oeis": "A006093",
+    "family": "PRIME DERIVED",
+    "description": "a(n) = p(n) − 1, where p(n) is the n-th prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=14",
+    "sourceCSV": "https://decompwlj.com/csv/A006093decomp.csv"
+  },
+  {
+    "id": "a006450",
+    "name": "Prime-indexed primes",
+    "oeis": "A006450",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "a(n) = p(p(n)): primes whose indices in the prime sequence are also prime. Jumps use this subsequence.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=14",
+    "sourceCSV": "https://decompwlj.com/csv/A006450decomp.csv"
+  },
+  {
+    "id": "a006512",
+    "name": "Greater twin primes",
+    "oeis": "A006512",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which p − 2 is prime. Jumps go to the next greater twin prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=14",
+    "sourceCSV": "https://decompwlj.com/csv/A006512decomp.csv"
+  },
+  {
+    "id": "a006753",
+    "name": "Smith numbers",
+    "oeis": "A006753",
+    "family": "DIGITS & FACTORIZATION",
+    "description": "Composite integers whose decimal digit sum equals the sum of the digit sums of their prime factors, counted with multiplicity.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=15",
+    "sourceCSV": "https://decompwlj.com/csv/A006753decomp.csv"
+  },
+  {
+    "id": "a006995",
+    "name": "Binary palindromes",
+    "oeis": "A006995",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion reads the same forwards and backwards, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=15",
+    "sourceCSV": "https://decompwlj.com/csv/A006995decomp.csv"
+  },
+  {
+    "id": "a007510",
+    "name": "Isolated primes",
+    "oeis": "A007510",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which neither p − 2 nor p + 2 is prime. Jumps go to the next isolated prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=16",
+    "sourceCSV": "https://decompwlj.com/csv/A007510decomp.csv"
+  },
+  {
+    "id": "a007770",
+    "name": "Happy numbers",
+    "oeis": "A007770",
+    "family": "DIGITS",
+    "description": "Positive integers that eventually reach 1 under repeated replacement by the sum of the squares of their decimal digits.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=16",
+    "sourceCSV": "https://decompwlj.com/csv/A007770decomp.csv"
+  },
+  {
+    "id": "a007528",
+    "name": "Primes ≡ 5 (mod 6)",
+    "oeis": "A007528",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes of the form 6m − 1. Jumps use consecutive primes of this subsequence.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=16",
+    "sourceCSV": "https://decompwlj.com/csv/A007528decomp.csv"
+  },
+  {
+    "id": "a007606",
+    "name": "Take one, skip two",
+    "oeis": "A007606",
+    "family": "BLOCK PATTERN",
+    "description": "Keep 1 positive integer, skip 2, keep 3, skip 4, and continue with increasing block lengths.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=16",
+    "sourceCSV": "https://decompwlj.com/csv/A007606decomp.csv"
+  },
+  {
+    "id": "a007618",
+    "name": "Digit-sum orbit from 5",
+    "oeis": "A007618",
+    "family": "DIGIT DYNAMICS",
+    "description": "Start at 5; each next term is the current term plus its decimal digit sum.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=16",
+    "sourceCSV": "https://decompwlj.com/csv/A007618decomp.csv"
+  },
+  {
+    "id": "a007957",
+    "name": "Numbers containing an odd digit",
+    "oeis": "A007957",
+    "family": "DIGITS",
+    "description": "Positive integers containing at least one odd decimal digit.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=17",
+    "sourceCSV": "https://decompwlj.com/csv/A007957decomp.csv"
+  },
+  {
+    "id": "a008364",
+    "name": "11-rough numbers",
+    "oeis": "A008364",
+    "family": "FACTORIZATION",
+    "description": "1 and positive integers not divisible by 2, 3, 5 or 7.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=17",
+    "sourceCSV": "https://decompwlj.com/csv/A008364decomp.csv"
+  },
+  {
+    "id": "a008846",
+    "name": "Primitive Pythagorean hypotenuses",
+    "oeis": "A008846",
+    "family": "QUADRATIC FORMS",
+    "description": "Distinct hypotenuses of primitive integer right triangles, in increasing order. Equivalently, integers greater than 1 with every prime factor congruent to 1 modulo 4.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=17",
+    "sourceCSV": "https://decompwlj.com/csv/A008846decomp.csv"
+  },
+  {
+    "id": "a008851",
+    "name": "Numbers ≡ 0 or 1 (mod 5)",
+    "oeis": "A008851",
+    "family": "MODULAR",
+    "description": "Nonnegative integers congruent to 0 or 1 modulo 5, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=17",
+    "sourceCSV": "https://decompwlj.com/csv/A008851decomp.csv"
+  },
+  {
+    "id": "a008864",
+    "name": "Primes plus one",
+    "oeis": "A008864",
+    "family": "PRIME DERIVED",
+    "description": "a(n) = p(n) + 1, where p(n) is the n-th prime.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=17",
+    "sourceCSV": "https://decompwlj.com/csv/A008864decomp.csv"
+  },
+  {
+    "id": "a010061",
+    "name": "Binary self numbers",
+    "oeis": "A010061",
+    "family": "DIGITS",
+    "description": "Positive integers not of the form m + the number of 1s in the binary expansion of m.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=18",
+    "sourceCSV": "https://decompwlj.com/csv/A010061decomp.csv"
+  },
+  {
+    "id": "a010784",
+    "name": "Distinct decimal digits",
+    "oeis": "A010784",
+    "family": "DIGITS",
+    "description": "Nonnegative integers with no repeated decimal digit, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=18",
+    "sourceCSV": "https://decompwlj.com/csv/A010784decomp.csv"
+  },
+  {
+    "id": "a010064",
+    "oeis": "A010064",
+    "name": "Base-4 self numbers",
+    "family": "DIGITS",
+    "description": "Positive integers not of the form m plus the sum of the base-4 digits of m.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=18",
+    "sourceCSV": "https://decompwlj.com/csv/A010064decomp.csv"
+  },
+  {
+    "id": "a011531",
+    "oeis": "A011531",
+    "name": "Numbers containing 1",
+    "family": "DIGITS",
+    "description": "Positive integers containing at least one decimal digit 1.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=18",
+    "sourceCSV": "https://decompwlj.com/csv/A011531decomp.csv"
+  },
+  {
+    "id": "a011539",
+    "oeis": "A011539",
+    "name": "Numbers containing 9",
+    "family": "DIGITS",
+    "description": "Positive integers containing at least one decimal digit 9.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=19",
+    "sourceCSV": "https://decompwlj.com/csv/A011539decomp.csv"
+  },
+  {
+    "id": "a011540",
+    "oeis": "A011540",
+    "name": "Numbers containing 0",
+    "family": "DIGITS",
+    "description": "Nonnegative integers containing a decimal digit 0, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=19",
+    "sourceCSV": "https://decompwlj.com/csv/A011540decomp.csv"
+  },
+  {
+    "id": "a013939",
+    "oeis": "A013939",
+    "name": "Cumulative distinct prime factors",
+    "family": "FACTORIZATION",
+    "description": "Partial sums of ω(m), the number of distinct prime divisors of m, starting at m = 1 with a(1) = 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=19",
+    "sourceCSV": "https://decompwlj.com/csv/A013939decomp.csv"
+  },
+  {
+    "id": "a014076",
+    "oeis": "A014076",
+    "name": "Odd nonprimes",
+    "family": "FACTORIZATION",
+    "description": "Odd positive integers that are not prime, including 1.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=19",
+    "sourceCSV": "https://decompwlj.com/csv/A014076decomp.csv"
+  },
+  {
+    "id": "a014190",
+    "oeis": "A014190",
+    "name": "Ternary palindromes",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-3 expansion is palindromic, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014190decomp.csv"
+  },
+  {
+    "id": "a014261",
+    "oeis": "A014261",
+    "name": "Odd digits only",
+    "family": "DIGITS",
+    "description": "Positive integers whose decimal digits all belong to 1, 3, 5, 7, 9.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014261decomp.csv"
+  },
+  {
+    "id": "a014263",
+    "oeis": "A014263",
+    "name": "Even digits only",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose decimal digits all belong to 0, 2, 4, 6, 8, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014263decomp.csv"
+  },
+  {
+    "id": "a014574",
+    "oeis": "A014574",
+    "name": "Twin-prime centers",
+    "family": "PRIME DERIVED",
+    "description": "Arithmetic means of twin-prime pairs, in increasing order. Each jump uses the next center.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014574decomp.csv"
+  },
+  {
+    "id": "a014612",
+    "oeis": "A014612",
+    "name": "3-almost primes",
+    "family": "FACTORIZATION",
+    "description": "Positive integers with exactly three prime factors, counted with multiplicity.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014612decomp.csv"
+  },
+  {
+    "id": "a014613",
+    "oeis": "A014613",
+    "name": "4-almost primes",
+    "family": "FACTORIZATION",
+    "description": "Positive integers with exactly four prime factors, counted with multiplicity.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014613decomp.csv"
+  },
+  {
+    "id": "a014614",
+    "oeis": "A014614",
+    "name": "5-almost primes",
+    "family": "FACTORIZATION",
+    "description": "Positive integers with exactly five prime factors, counted with multiplicity.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=21",
+    "sourceCSV": "https://decompwlj.com/csv/A014614decomp.csv"
+  },
+  {
+    "id": "a014688",
+    "oeis": "A014688",
+    "name": "Prime plus its index",
+    "family": "PRIME DERIVED",
+    "description": "a(n) = p(n) + n, where p(n) is the n-th prime and n starts at 1.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=21",
+    "sourceCSV": "https://decompwlj.com/csv/A014688decomp.csv"
+  },
+  {
+    "id": "a015911",
+    "oeis": "A015911",
+    "name": "Odd power-of-two residues",
+    "family": "MODULAR",
+    "description": "Positive integers m for which the least nonnegative residue of 2^m modulo m is odd.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=21",
+    "sourceCSV": "https://decompwlj.com/csv/A015911decomp.csv"
+  },
+  {
+    "id": "a016052",
+    "oeis": "A016052",
+    "name": "Digit-sum orbit from 3",
+    "family": "DIGIT DYNAMICS",
+    "description": "Start at 3; each next term is the current term plus its decimal digit sum.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=21",
+    "sourceCSV": "https://decompwlj.com/csv/A016052decomp.csv"
+  },
+  {
+    "id": "a016096",
+    "oeis": "A016096",
+    "name": "Digit-sum orbit from 9",
+    "family": "DIGIT DYNAMICS",
+    "description": "Start at 9; each next term is the current term plus its decimal digit sum.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=21",
+    "sourceCSV": "https://decompwlj.com/csv/A016096decomp.csv"
+  },
+  {
+    "id": "a018825",
+    "oeis": "A018825",
+    "name": "Not two nonzero squares",
+    "family": "QUADRATIC FORMS",
+    "description": "Positive integers not representable as x² + y² with positive integers x and y.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=22",
+    "sourceCSV": "https://decompwlj.com/csv/A018825decomp.csv"
+  },
+  {
+    "id": "a019506",
+    "oeis": "A019506",
+    "name": "Hoax numbers",
+    "family": "DIGITS & FACTORIZATION",
+    "description": "Composite integers whose decimal digit sum equals the sum of the decimal digit sums of their distinct prime factors.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=22",
+    "sourceCSV": "https://decompwlj.com/csv/A019506decomp.csv"
+  },
+  {
+    "id": "a020670",
+    "oeis": "A020670",
+    "name": "Square plus seven times a square",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers representable as x² + 7y² with integers x and y, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=22",
+    "sourceCSV": "https://decompwlj.com/csv/A020670decomp.csv"
+  },
+  {
+    "id": "a020756",
+    "oeis": "A020756",
+    "name": "Sums of two triangular numbers",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers representable as T(x) + T(y), where T(j) = j(j+1)/2 and x, y are nonnegative.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=22",
+    "sourceCSV": "https://decompwlj.com/csv/A020756decomp.csv"
+  },
+  {
+    "id": "a020757",
+    "oeis": "A020757",
+    "name": "Not two triangular numbers",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers not representable as a sum of two triangular numbers.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=22",
+    "sourceCSV": "https://decompwlj.com/csv/A020757decomp.csv"
+  },
+  {
+    "id": "a022544",
+    "oeis": "A022544",
+    "name": "Not two squares",
+    "family": "QUADRATIC FORMS",
+    "description": "Nonnegative integers not representable as a sum of two integer squares.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=22",
+    "sourceCSV": "https://decompwlj.com/csv/A022544decomp.csv"
+  },
+  {
+    "id": "a022549",
+    "oeis": "A022549",
+    "name": "Square plus cube",
+    "family": "POWERS",
+    "description": "Nonnegative integers representable as x² + y³ with nonnegative integers x and y, including 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A022549decomp.csv"
+  },
+  {
+    "id": "a022559",
+    "oeis": "A022559",
+    "name": "Prime factors of factorials",
+    "family": "FACTORIZATION",
+    "description": "Total number of prime factors of n!, counted with multiplicity, starting at n = 1 with a(1) = 0.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A022559decomp.csv"
+  },
+  {
+    "id": "a022839",
+    "oeis": "A022839",
+    "name": "Beatty: √5",
+    "family": "BEATTY",
+    "description": "a(n) = floor(n√5), for n ≥ 1; computed with an exact integer square root.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A022839decomp.csv"
+  },
+  {
+    "id": "a023197",
+    "oeis": "A023197",
+    "name": "Divisor sum at least 3n",
+    "family": "DIVISIBILITY",
+    "description": "Positive integers m satisfying σ(m) ≥ 3m.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A023197decomp.csv"
+  },
+  {
+    "id": "a023200",
+    "oeis": "A023200",
+    "name": "Lesser cousin primes",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which p + 4 is prime. Jumps use consecutive primes of this subsequence.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A023200decomp.csv"
+  },
+  {
+    "id": "a023201",
+    "oeis": "A023201",
+    "name": "Lesser sexy primes",
+    "family": "PRIME SUBSEQUENCE",
+    "description": "Primes p for which p + 6 is prime. Jumps use consecutive primes of this subsequence.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A023201decomp.csv"
+  },
+  {
+    "id": "a022841",
+    "oeis": "A022841",
+    "name": "Beatty: √7",
+    "family": "BEATTY",
+    "description": "a(n) = floor(n√7), for n ≥ 1; computed with an exact integer square root.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=23",
+    "sourceCSV": "https://decompwlj.com/csv/A022841decomp.csv"
+  }
+]
