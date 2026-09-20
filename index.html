@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>WLJ Atlas — 100 integer sequences to explore</title>
-<meta name="description" content="WLJ Atlas is an interactive atlas of 100 integer sequences, explored through weight × level + jump. Search by sequence name or OEIS ID and open interactive 2D and 3D graphs.">
+<title>WLJ Atlas — 140 integer sequences to explore</title>
+<meta name="description" content="WLJ Atlas is an interactive atlas of 140 integer sequences, explored through weight × level + jump. Search by sequence name or OEIS ID and open interactive 2D and 3D graphs.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="Rémi Eismann">
-<meta property="og:type" content="website"><meta property="og:site_name" content="WLJ Atlas"><meta property="og:title" content="WLJ Atlas — 100 integer sequences to explore">
-<meta property="og:description" content="WLJ Atlas is an interactive atlas of 100 integer sequences, explored through weight × level + jump. Search by sequence name or OEIS ID and open interactive 2D and 3D graphs.">
-<meta property="og:locale" content="en_US"><meta property="og:image" content="https://decompwlj.org/assets/social-card-atlas.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="WLJ Atlas: 100 sequences and interactive weight–level graph previews">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="WLJ Atlas — 100 integer sequences to explore">
-<meta name="twitter:description" content="WLJ Atlas is an interactive atlas of 100 integer sequences, explored through weight × level + jump. Search by sequence name or OEIS ID and open interactive 2D and 3D graphs."><meta name="twitter:image" content="https://decompwlj.org/assets/social-card-atlas.png">
-<meta name="twitter:image:alt" content="WLJ Atlas: 100 sequences and interactive weight–level graph previews">
+<meta property="og:type" content="website"><meta property="og:site_name" content="WLJ Atlas"><meta property="og:title" content="WLJ Atlas — 140 sequences. A shared lens.">
+<meta property="og:description" content="Explore 140 integer sequences and 28 million computed points through weight × level + jump. Discover arithmetic patterns in interactive 2D and 3D graphs.">
+<meta property="og:locale" content="en_US"><meta property="og:image" content="https://decompwlj.org/assets/social-card-atlas-140.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="WLJ Atlas: 140 sequences, 28 million computed points, and four actual weight–level graph previews.">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="WLJ Atlas — 140 sequences. A shared lens.">
+<meta name="twitter:description" content="Explore 140 integer sequences and 28 million computed points through weight × level + jump. Discover arithmetic patterns in interactive 2D and 3D graphs."><meta name="twitter:image" content="https://decompwlj.org/assets/social-card-atlas-140.png">
+<meta name="twitter:image:alt" content="WLJ Atlas: 140 sequences, 28 million computed points, and four actual weight–level graph previews.">
 <meta name="theme-color" content="#080e19"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="assets/style.css">
 <!-- deployment metadata -->
@@ -23,9 +23,9 @@
 {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  "name": "WLJ Atlas — 100 integer sequences to explore",
+  "name": "WLJ Atlas — 140 integer sequences to explore",
   "url": "https://decompwlj.org/",
-  "description": "An interactive atlas of 100 integer sequences explored through weight × level + jump.",
+  "description": "An interactive atlas of 140 integer sequences explored through weight × level + jump.",
   "author": {
     "@type": "Person",
     "name": "Rémi Eismann",
@@ -34,7 +34,7 @@
   "mainEntity": {
     "@type": "ItemList",
     "name": "Integer sequences in the WLJ Atlas",
-    "numberOfItems": 100
+    "numberOfItems": 140
   }
 }
 </script>
@@ -48,11 +48,11 @@
 <section class="atlas-intro" aria-labelledby="atlas-title">
 <div class="eyebrow">THE WEIGHT × LEVEL + JUMP ATLAS</div>
 <h1 id="atlas-title">Integer sequences, seen through a shared lens.</h1>
-<p>Explore how arithmetic structure takes shape across 100 integer sequences: natural numbers, primes, figurate numbers, digit patterns and more. The decomposition <span class="formula">a(n) = k(n)L(n) + d(n)</span> connects each term’s next gap, or jump, with its weight and level.</p>
-<div class="atlas-summary"><span>100 sequences</span><span>20,000,000 computed points</span><span>Interactive 2D &amp; 3D graphs</span></div>
+<p>Explore how arithmetic structure takes shape across 140 integer sequences: natural numbers, primes, figurate numbers, digit patterns and more. The decomposition <span class="formula">a(n) = k(n)L(n) + d(n)</span> connects each term’s next gap, or jump, with its weight and level.</p>
+<div class="atlas-summary"><span>140 sequences</span><span>28,000,000 computed points</span><span>Interactive 2D &amp; 3D graphs</span></div>
 </section>
 <section class="atlas-gallery" aria-label="Sequence graph gallery">
-<div class="gallery-tools"><label class="gallery-search" for="gallery-search"><span>Find a sequence</span><input id="gallery-search" type="search" placeholder="Sequence name or OEIS ID…" autocomplete="off" aria-controls="graph-gallery"></label><button id="random-sequence" class="random-sequence" type="button" title="Open a random graph from all 100 sequences" disabled>Explore a random sequence</button><p id="gallery-count" role="status" aria-live="polite">100 sequences</p></div>
+<div class="gallery-tools"><label class="gallery-search" for="gallery-search"><span>Find a sequence</span><input id="gallery-search" type="search" placeholder="Sequence name or OEIS ID…" autocomplete="off" aria-controls="graph-gallery"></label><button id="random-sequence" class="random-sequence" type="button" title="Open a random graph from all 140 sequences" disabled>Explore a random sequence</button><p id="gallery-count" role="status" aria-live="polite">140 sequences</p></div>
 <div class="gallery-caption"><span>Weight–level previews · first 25,000 plotted terms · equal log scales</span><span class="gallery-legend"><span><i class="swatch weight"></i>Weight (k ≤ L)</span><span><i class="swatch level"></i>Level (k &gt; L)</span></span></div>
 <div id="graph-gallery" class="graph-gallery"><a class="graph-card" href="explore.html#natural" data-search="Natural numbers A000027 natural" aria-label="Natural numbers (A000027) — open interactive graph">
 <img src="assets/previews/natural.png" width="640" height="400" alt="Weight–level projection of Natural numbers; natural logarithms on equal scales" loading="eager" decoding="async">
@@ -66,7 +66,11 @@
 <img src="assets/previews/a000069.png" width="640" height="400" alt="Weight–level projection of Odious numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Odious numbers</h2><span>A000069</span></div></a><a class="graph-card" href="explore.html#a000093" data-search="Floor of n to the 3/2 A000093 a000093" aria-label="Floor of n to the 3/2 (A000093) — open interactive graph">
 <img src="assets/previews/a000093.png" width="640" height="400" alt="Weight–level projection of Floor of n to the 3/2; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Floor of n to the 3/2</h2><span>A000093</span></div></a><a class="graph-card" href="explore.html#a000201" data-search="Lower Wythoff sequence A000201 a000201" aria-label="Lower Wythoff sequence (A000201) — open interactive graph">
+<div class="card-label"><h2>Floor of n to the 3/2</h2><span>A000093</span></div></a><a class="graph-card" href="explore.html#a000096" data-search="Triangular numbers plus n A000096 a000096" aria-label="Triangular numbers plus n (A000096) — open interactive graph">
+<img src="assets/previews/a000096.png" width="640" height="400" alt="Weight–level projection of Triangular numbers plus n; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Triangular numbers plus n</h2><span>A000096</span></div></a><a class="graph-card" href="explore.html#a000124" data-search="Central polygonal numbers A000124 a000124" aria-label="Central polygonal numbers (A000124) — open interactive graph">
+<img src="assets/previews/a000124.png" width="640" height="400" alt="Weight–level projection of Central polygonal numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Central polygonal numbers</h2><span>A000124</span></div></a><a class="graph-card" href="explore.html#a000201" data-search="Lower Wythoff sequence A000201 a000201" aria-label="Lower Wythoff sequence (A000201) — open interactive graph">
 <img src="assets/previews/a000201.png" width="640" height="400" alt="Weight–level projection of Lower Wythoff sequence; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Lower Wythoff sequence</h2><span>A000201</span></div></a><a class="graph-card" href="explore.html#triangular" data-search="Triangular numbers A000217 triangular" aria-label="Triangular numbers (A000217) — open interactive graph">
 <img src="assets/previews/triangular.png" width="640" height="400" alt="Weight–level projection of Triangular numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -78,7 +82,9 @@
 <img src="assets/previews/a000378.png" width="640" height="400" alt="Weight–level projection of Sums of three squares; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Sums of three squares</h2><span>A000378</span></div></a><a class="graph-card" href="explore.html#a000379" data-search="Even exponent-bit parity A000379 a000379" aria-label="Even exponent-bit parity (A000379) — open interactive graph">
 <img src="assets/previews/a000379.png" width="640" height="400" alt="Weight–level projection of Even exponent-bit parity; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Even exponent-bit parity</h2><span>A000379</span></div></a><a class="graph-card" href="explore.html#a000469" data-search="Squarefree composites and 1 A000469 a000469" aria-label="Squarefree composites and 1 (A000469) — open interactive graph">
+<div class="card-label"><h2>Even exponent-bit parity</h2><span>A000379</span></div></a><a class="graph-card" href="explore.html#a000384" data-search="Hexagonal numbers A000384 a000384" aria-label="Hexagonal numbers (A000384) — open interactive graph">
+<img src="assets/previews/a000384.png" width="640" height="400" alt="Weight–level projection of Hexagonal numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Hexagonal numbers</h2><span>A000384</span></div></a><a class="graph-card" href="explore.html#a000469" data-search="Squarefree composites and 1 A000469 a000469" aria-label="Squarefree composites and 1 (A000469) — open interactive graph">
 <img src="assets/previews/a000469.png" width="640" height="400" alt="Weight–level projection of Squarefree composites and 1; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Squarefree composites and 1</h2><span>A000469</span></div></a><a class="graph-card" href="explore.html#a000788" data-search="Cumulative binary digit sum A000788 a000788" aria-label="Cumulative binary digit sum (A000788) — open interactive graph">
 <img src="assets/previews/a000788.png" width="640" height="400" alt="Weight–level projection of Cumulative binary digit sum; natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -102,13 +108,17 @@
 <img src="assets/previews/a001751.png" width="640" height="400" alt="Weight–level projection of Primes and twice primes; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Primes and twice primes</h2><span>A001751</span></div></a><a class="graph-card" href="explore.html#a001839" data-search="Triangle packing numbers A001839 a001839" aria-label="Triangle packing numbers (A001839) — open interactive graph">
 <img src="assets/previews/a001839.png" width="640" height="400" alt="Weight–level projection of Triangle packing numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Triangle packing numbers</h2><span>A001839</span></div></a><a class="graph-card" href="explore.html#a001855" data-search="Binary-insertion sorting numbers A001855 a001855" aria-label="Binary-insertion sorting numbers (A001855) — open interactive graph">
+<div class="card-label"><h2>Triangle packing numbers</h2><span>A001839</span></div></a><a class="graph-card" href="explore.html#a001844" data-search="Centered square numbers A001844 a001844" aria-label="Centered square numbers (A001844) — open interactive graph">
+<img src="assets/previews/a001844.png" width="640" height="400" alt="Weight–level projection of Centered square numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Centered square numbers</h2><span>A001844</span></div></a><a class="graph-card" href="explore.html#a001855" data-search="Binary-insertion sorting numbers A001855 a001855" aria-label="Binary-insertion sorting numbers (A001855) — open interactive graph">
 <img src="assets/previews/a001855.png" width="640" height="400" alt="Weight–level projection of Binary-insertion sorting numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Binary-insertion sorting numbers</h2><span>A001855</span></div></a><a class="graph-card" href="explore.html#a001952" data-search="Beatty: 2 + √2 A001952 a001952" aria-label="Beatty: 2 + √2 (A001952) — open interactive graph">
 <img src="assets/previews/a001952.png" width="640" height="400" alt="Weight–level projection of Beatty: 2 + √2; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Beatty: 2 + √2</h2><span>A001952</span></div></a><a class="graph-card" href="explore.html#a001969" data-search="Evil numbers A001969 a001969" aria-label="Evil numbers (A001969) — open interactive graph">
 <img src="assets/previews/a001969.png" width="640" height="400" alt="Weight–level projection of Evil numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Evil numbers</h2><span>A001969</span></div></a><a class="graph-card" href="explore.html#a002113" data-search="Decimal palindromes A002113 a002113" aria-label="Decimal palindromes (A002113) — open interactive graph">
+<div class="card-label"><h2>Evil numbers</h2><span>A001969</span></div></a><a class="graph-card" href="explore.html#a002081" data-search="Residues 2, 4, 8, 16 modulo 20 A002081 a002081" aria-label="Residues 2, 4, 8, 16 modulo 20 (A002081) — open interactive graph">
+<img src="assets/previews/a002081.png" width="640" height="400" alt="Weight–level projection of Residues 2, 4, 8, 16 modulo 20; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Residues 2, 4, 8, 16 modulo 20</h2><span>A002081</span></div></a><a class="graph-card" href="explore.html#a002113" data-search="Decimal palindromes A002113 a002113" aria-label="Decimal palindromes (A002113) — open interactive graph">
 <img src="assets/previews/a002113.png" width="640" height="400" alt="Weight–level projection of Decimal palindromes; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Decimal palindromes</h2><span>A002113</span></div></a><a class="graph-card" href="explore.html#primes-1-mod-4" data-search="Primes ≡ 1 (mod 4) A002144 primes-1-mod-4" aria-label="Primes ≡ 1 (mod 4) (A002144) — open interactive graph">
 <img src="assets/previews/primes-1-mod-4.png" width="640" height="400" alt="Weight–level projection of Primes ≡ 1 (mod 4); natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -118,7 +128,11 @@
 <img src="assets/previews/pronic.png" width="640" height="400" alt="Weight–level projection of Pronic numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Pronic numbers</h2><span>A002378</span></div></a><a class="graph-card" href="explore.html#a002476" data-search="Primes ≡ 1 (mod 6) A002476 a002476" aria-label="Primes ≡ 1 (mod 6) (A002476) — open interactive graph">
 <img src="assets/previews/a002476.png" width="640" height="400" alt="Weight–level projection of Primes ≡ 1 (mod 6); natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Primes ≡ 1 (mod 6)</h2><span>A002476</span></div></a><a class="graph-card" href="explore.html#composites" data-search="Composite numbers A002808 composites" aria-label="Composite numbers (A002808) — open interactive graph">
+<div class="card-label"><h2>Primes ≡ 1 (mod 6)</h2><span>A002476</span></div></a><a class="graph-card" href="explore.html#a002522" data-search="Squares plus one A002522 a002522" aria-label="Squares plus one (A002522) — open interactive graph">
+<img src="assets/previews/a002522.png" width="640" height="400" alt="Weight–level projection of Squares plus one; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Squares plus one</h2><span>A002522</span></div></a><a class="graph-card" href="explore.html#a002620" data-search="Quarter-squares A002620 a002620" aria-label="Quarter-squares (A002620) — open interactive graph">
+<img src="assets/previews/a002620.png" width="640" height="400" alt="Weight–level projection of Quarter-squares; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Quarter-squares</h2><span>A002620</span></div></a><a class="graph-card" href="explore.html#composites" data-search="Composite numbers A002808 composites" aria-label="Composite numbers (A002808) — open interactive graph">
 <img src="assets/previews/composites.png" width="640" height="400" alt="Weight–level projection of Composite numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Composite numbers</h2><span>A002808</span></div></a><a class="graph-card" href="explore.html#a002822" data-search="Twin-prime centers / 6 A002822 a002822" aria-label="Twin-prime centers / 6 (A002822) — open interactive graph">
 <img src="assets/previews/a002822.png" width="640" height="400" alt="Weight–level projection of Twin-prime centers / 6; natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -128,7 +142,11 @@
 <img src="assets/previews/a003136.png" width="640" height="400" alt="Weight–level projection of Loeschian numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Loeschian numbers</h2><span>A003136</span></div></a><a class="graph-card" href="explore.html#a003277" data-search="Cyclic numbers A003277 a003277" aria-label="Cyclic numbers (A003277) — open interactive graph">
 <img src="assets/previews/a003277.png" width="640" height="400" alt="Weight–level projection of Cyclic numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Cyclic numbers</h2><span>A003277</span></div></a><a class="graph-card" href="explore.html#a003601" data-search="Integer divisor averages A003601 a003601" aria-label="Integer divisor averages (A003601) — open interactive graph">
+<div class="card-label"><h2>Cyclic numbers</h2><span>A003277</span></div></a><a class="graph-card" href="explore.html#a003511" data-search="Beatty: (1 + √3)/2 A003511 a003511" aria-label="Beatty: (1 + √3)/2 (A003511) — open interactive graph">
+<img src="assets/previews/a003511.png" width="640" height="400" alt="Weight–level projection of Beatty: (1 + √3)/2; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Beatty: (1 + √3)/2</h2><span>A003511</span></div></a><a class="graph-card" href="explore.html#a003512" data-search="Beatty: 2 + √3 A003512 a003512" aria-label="Beatty: 2 + √3 (A003512) — open interactive graph">
+<img src="assets/previews/a003512.png" width="640" height="400" alt="Weight–level projection of Beatty: 2 + √3; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Beatty: 2 + √3</h2><span>A003512</span></div></a><a class="graph-card" href="explore.html#a003601" data-search="Integer divisor averages A003601 a003601" aria-label="Integer divisor averages (A003601) — open interactive graph">
 <img src="assets/previews/a003601.png" width="640" height="400" alt="Weight–level projection of Integer divisor averages; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Integer divisor averages</h2><span>A003601</span></div></a><a class="graph-card" href="explore.html#a003628" data-search="Primes ≡ 5 or 7 (mod 8) A003628 a003628" aria-label="Primes ≡ 5 or 7 (mod 8) (A003628) — open interactive graph">
 <img src="assets/previews/a003628.png" width="640" height="400" alt="Weight–level projection of Primes ≡ 5 or 7 (mod 8); natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -136,9 +154,31 @@
 <img src="assets/previews/a003631.png" width="640" height="400" alt="Weight–level projection of Primes ≡ 2 or 3 (mod 5); natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Primes ≡ 2 or 3 (mod 5)</h2><span>A003631</span></div></a><a class="graph-card" href="explore.html#a003726" data-search="Binary numbers without 111 A003726 a003726" aria-label="Binary numbers without 111 (A003726) — open interactive graph">
 <img src="assets/previews/a003726.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 111; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Binary numbers without 111</h2><span>A003726</span></div></a><a class="graph-card" href="explore.html#a004215" data-search="Require four squares A004215 a004215" aria-label="Require four squares (A004215) — open interactive graph">
+<div class="card-label"><h2>Binary numbers without 111</h2><span>A003726</span></div></a><a class="graph-card" href="explore.html#a003796" data-search="Binary numbers without 000 A003796 a003796" aria-label="Binary numbers without 000 (A003796) — open interactive graph">
+<img src="assets/previews/a003796.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 000; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Binary numbers without 000</h2><span>A003796</span></div></a><a class="graph-card" href="explore.html#a004201" data-search="Take one, skip one, take two… A004201 a004201" aria-label="Take one, skip one, take two… (A004201) — open interactive graph">
+<img src="assets/previews/a004201.png" width="640" height="400" alt="Weight–level projection of Take one, skip one, take two…; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Take one, skip one, take two…</h2><span>A004201</span></div></a><a class="graph-card" href="explore.html#a004202" data-search="Skip one, take one, skip two… A004202 a004202" aria-label="Skip one, take one, skip two… (A004202) — open interactive graph">
+<img src="assets/previews/a004202.png" width="640" height="400" alt="Weight–level projection of Skip one, take one, skip two…; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Skip one, take one, skip two…</h2><span>A004202</span></div></a><a class="graph-card" href="explore.html#a004215" data-search="Require four squares A004215 a004215" aria-label="Require four squares (A004215) — open interactive graph">
 <img src="assets/previews/a004215.png" width="640" height="400" alt="Weight–level projection of Require four squares; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Require four squares</h2><span>A004215</span></div></a><a class="graph-card" href="explore.html#a005100" data-search="Deficient numbers A005100 a005100" aria-label="Deficient numbers (A005100) — open interactive graph">
+<div class="card-label"><h2>Require four squares</h2><span>A004215</span></div></a><a class="graph-card" href="explore.html#a004611" data-search="Prime factors ≡ 1 (mod 3) A004611 a004611" aria-label="Prime factors ≡ 1 (mod 3) (A004611) — open interactive graph">
+<img src="assets/previews/a004611.png" width="640" height="400" alt="Weight–level projection of Prime factors ≡ 1 (mod 3); natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Prime factors ≡ 1 (mod 3)</h2><span>A004611</span></div></a><a class="graph-card" href="explore.html#a004613" data-search="Prime factors ≡ 1 (mod 4) A004613 a004613" aria-label="Prime factors ≡ 1 (mod 4) (A004613) — open interactive graph">
+<img src="assets/previews/a004613.png" width="640" height="400" alt="Weight–level projection of Prime factors ≡ 1 (mod 4); natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Prime factors ≡ 1 (mod 4)</h2><span>A004613</span></div></a><a class="graph-card" href="explore.html#a004614" data-search="Prime factors ≡ 3 (mod 4) A004614 a004614" aria-label="Prime factors ≡ 3 (mod 4) (A004614) — open interactive graph">
+<img src="assets/previews/a004614.png" width="640" height="400" alt="Weight–level projection of Prime factors ≡ 3 (mod 4); natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Prime factors ≡ 3 (mod 4)</h2><span>A004614</span></div></a><a class="graph-card" href="explore.html#a004742" data-search="Binary numbers without 101 A004742 a004742" aria-label="Binary numbers without 101 (A004742) — open interactive graph">
+<img src="assets/previews/a004742.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 101; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Binary numbers without 101</h2><span>A004742</span></div></a><a class="graph-card" href="explore.html#a004743" data-search="Binary numbers without 110 A004743 a004743" aria-label="Binary numbers without 110 (A004743) — open interactive graph">
+<img src="assets/previews/a004743.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 110; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Binary numbers without 110</h2><span>A004743</span></div></a><a class="graph-card" href="explore.html#a004744" data-search="Binary numbers without 011 A004744 a004744" aria-label="Binary numbers without 011 (A004744) — open interactive graph">
+<img src="assets/previews/a004744.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 011; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Binary numbers without 011</h2><span>A004744</span></div></a><a class="graph-card" href="explore.html#a004745" data-search="Binary numbers without 001 A004745 a004745" aria-label="Binary numbers without 001 (A004745) — open interactive graph">
+<img src="assets/previews/a004745.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 001; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Binary numbers without 001</h2><span>A004745</span></div></a><a class="graph-card" href="explore.html#a004746" data-search="Binary numbers without 010 A004746 a004746" aria-label="Binary numbers without 010 (A004746) — open interactive graph">
+<img src="assets/previews/a004746.png" width="640" height="400" alt="Weight–level projection of Binary numbers without 010; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Binary numbers without 010</h2><span>A004746</span></div></a><a class="graph-card" href="explore.html#a005100" data-search="Deficient numbers A005100 a005100" aria-label="Deficient numbers (A005100) — open interactive graph">
 <img src="assets/previews/a005100.png" width="640" height="400" alt="Weight–level projection of Deficient numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Deficient numbers</h2><span>A005100</span></div></a><a class="graph-card" href="explore.html#a005101" data-search="Abundant numbers A005101 a005101" aria-label="Abundant numbers (A005101) — open interactive graph">
 <img src="assets/previews/a005101.png" width="640" height="400" alt="Weight–level projection of Abundant numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -158,7 +198,9 @@
 <img src="assets/previews/even.png" width="640" height="400" alt="Weight–level projection of Even numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Even numbers</h2><span>A005843</span></div></a><a class="graph-card" href="explore.html#a006093" data-search="Primes minus one A006093 a006093" aria-label="Primes minus one (A006093) — open interactive graph">
 <img src="assets/previews/a006093.png" width="640" height="400" alt="Weight–level projection of Primes minus one; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Primes minus one</h2><span>A006093</span></div></a><a class="graph-card" href="explore.html#a006446" data-search="Floor-root divisibility numbers A006446 a006446" aria-label="Floor-root divisibility numbers (A006446) — open interactive graph">
+<div class="card-label"><h2>Primes minus one</h2><span>A006093</span></div></a><a class="graph-card" href="explore.html#a006364" data-search="Even binary parity above the last bit A006364 a006364" aria-label="Even binary parity above the last bit (A006364) — open interactive graph">
+<img src="assets/previews/a006364.png" width="640" height="400" alt="Weight–level projection of Even binary parity above the last bit; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Even binary parity above the last bit</h2><span>A006364</span></div></a><a class="graph-card" href="explore.html#a006446" data-search="Floor-root divisibility numbers A006446 a006446" aria-label="Floor-root divisibility numbers (A006446) — open interactive graph">
 <img src="assets/previews/a006446.png" width="640" height="400" alt="Weight–level projection of Floor-root divisibility numbers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Floor-root divisibility numbers</h2><span>A006446</span></div></a><a class="graph-card" href="explore.html#a006450" data-search="Prime-indexed primes A006450 a006450" aria-label="Prime-indexed primes (A006450) — open interactive graph">
 <img src="assets/previews/a006450.png" width="640" height="400" alt="Weight–level projection of Prime-indexed primes; natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -208,11 +250,15 @@
 <img src="assets/previews/a014076.png" width="640" height="400" alt="Weight–level projection of Odd nonprimes; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Odd nonprimes</h2><span>A014076</span></div></a><a class="graph-card" href="explore.html#a014190" data-search="Ternary palindromes A014190 a014190" aria-label="Ternary palindromes (A014190) — open interactive graph">
 <img src="assets/previews/a014190.png" width="640" height="400" alt="Weight–level projection of Ternary palindromes; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Ternary palindromes</h2><span>A014190</span></div></a><a class="graph-card" href="explore.html#a014261" data-search="Odd digits only A014261 a014261" aria-label="Odd digits only (A014261) — open interactive graph">
+<div class="card-label"><h2>Ternary palindromes</h2><span>A014190</span></div></a><a class="graph-card" href="explore.html#a014192" data-search="Palindromes in base 4 A014192 a014192" aria-label="Palindromes in base 4 (A014192) — open interactive graph">
+<img src="assets/previews/a014192.png" width="640" height="400" alt="Weight–level projection of Palindromes in base 4; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Palindromes in base 4</h2><span>A014192</span></div></a><a class="graph-card" href="explore.html#a014261" data-search="Odd digits only A014261 a014261" aria-label="Odd digits only (A014261) — open interactive graph">
 <img src="assets/previews/a014261.png" width="640" height="400" alt="Weight–level projection of Odd digits only; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Odd digits only</h2><span>A014261</span></div></a><a class="graph-card" href="explore.html#a014263" data-search="Even digits only A014263 a014263" aria-label="Even digits only (A014263) — open interactive graph">
 <img src="assets/previews/a014263.png" width="640" height="400" alt="Weight–level projection of Even digits only; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Even digits only</h2><span>A014263</span></div></a><a class="graph-card" href="explore.html#a014574" data-search="Twin-prime centers A014574 a014574" aria-label="Twin-prime centers (A014574) — open interactive graph">
+<div class="card-label"><h2>Even digits only</h2><span>A014263</span></div></a><a class="graph-card" href="explore.html#a014313" data-search="Exactly five binary ones A014313 a014313" aria-label="Exactly five binary ones (A014313) — open interactive graph">
+<img src="assets/previews/a014313.png" width="640" height="400" alt="Weight–level projection of Exactly five binary ones; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Exactly five binary ones</h2><span>A014313</span></div></a><a class="graph-card" href="explore.html#a014574" data-search="Twin-prime centers A014574 a014574" aria-label="Twin-prime centers (A014574) — open interactive graph">
 <img src="assets/previews/a014574.png" width="640" height="400" alt="Weight–level projection of Twin-prime centers; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Twin-prime centers</h2><span>A014574</span></div></a><a class="graph-card" href="explore.html#a014612" data-search="3-almost primes A014612 a014612" aria-label="3-almost primes (A014612) — open interactive graph">
 <img src="assets/previews/a014612.png" width="640" height="400" alt="Weight–level projection of 3-almost primes; natural logarithms on equal scales" loading="lazy" decoding="async">
@@ -254,11 +300,45 @@
 <img src="assets/previews/a023200.png" width="640" height="400" alt="Weight–level projection of Lesser cousin primes; natural logarithms on equal scales" loading="lazy" decoding="async">
 <div class="card-label"><h2>Lesser cousin primes</h2><span>A023200</span></div></a><a class="graph-card" href="explore.html#a023201" data-search="Lesser sexy primes A023201 a023201" aria-label="Lesser sexy primes (A023201) — open interactive graph">
 <img src="assets/previews/a023201.png" width="640" height="400" alt="Weight–level projection of Lesser sexy primes; natural logarithms on equal scales" loading="lazy" decoding="async">
-<div class="card-label"><h2>Lesser sexy primes</h2><span>A023201</span></div></a></div>
+<div class="card-label"><h2>Lesser sexy primes</h2><span>A023201</span></div></a><a class="graph-card" href="explore.html#a023705" data-search="Base-4 numbers without 0 A023705 a023705" aria-label="Base-4 numbers without 0 (A023705) — open interactive graph">
+<img src="assets/previews/a023705.png" width="640" height="400" alt="Weight–level projection of Base-4 numbers without 0; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Base-4 numbers without 0</h2><span>A023705</span></div></a><a class="graph-card" href="explore.html#a023733" data-search="Base-5 numbers without 3 A023733 a023733" aria-label="Base-5 numbers without 3 (A023733) — open interactive graph">
+<img src="assets/previews/a023733.png" width="640" height="400" alt="Weight–level projection of Base-5 numbers without 3; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Base-5 numbers without 3</h2><span>A023733</span></div></a><a class="graph-card" href="explore.html#a027697" data-search="Odious primes A027697 a027697" aria-label="Odious primes (A027697) — open interactive graph">
+<img src="assets/previews/a027697.png" width="640" height="400" alt="Weight–level projection of Odious primes; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Odious primes</h2><span>A027697</span></div></a><a class="graph-card" href="explore.html#a027699" data-search="Evil primes A027699 a027699" aria-label="Evil primes (A027699) — open interactive graph">
+<img src="assets/previews/a027699.png" width="640" height="400" alt="Weight–level projection of Evil primes; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Evil primes</h2><span>A027699</span></div></a><a class="graph-card" href="explore.html#a028835" data-search="Prime decimal digital root A028835 a028835" aria-label="Prime decimal digital root (A028835) — open interactive graph">
+<img src="assets/previews/a028835.png" width="640" height="400" alt="Weight–level projection of Prime decimal digital root; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Prime decimal digital root</h2><span>A028835</span></div></a><a class="graph-card" href="explore.html#a029742" data-search="Decimal nonpalindromes A029742 a029742" aria-label="Decimal nonpalindromes (A029742) — open interactive graph">
+<img src="assets/previews/a029742.png" width="640" height="400" alt="Weight–level projection of Decimal nonpalindromes; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Decimal nonpalindromes</h2><span>A029742</span></div></a><a class="graph-card" href="explore.html#a029803" data-search="Palindromes in base 8 A029803 a029803" aria-label="Palindromes in base 8 (A029803) — open interactive graph">
+<img src="assets/previews/a029803.png" width="640" height="400" alt="Weight–level projection of Palindromes in base 8; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Palindromes in base 8</h2><span>A029803</span></div></a><a class="graph-card" href="explore.html#a029952" data-search="Palindromes in base 5 A029952 a029952" aria-label="Palindromes in base 5 (A029952) — open interactive graph">
+<img src="assets/previews/a029952.png" width="640" height="400" alt="Weight–level projection of Palindromes in base 5; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Palindromes in base 5</h2><span>A029952</span></div></a><a class="graph-card" href="explore.html#a029953" data-search="Palindromes in base 6 A029953 a029953" aria-label="Palindromes in base 6 (A029953) — open interactive graph">
+<img src="assets/previews/a029953.png" width="640" height="400" alt="Weight–level projection of Palindromes in base 6; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Palindromes in base 6</h2><span>A029953</span></div></a><a class="graph-card" href="explore.html#a029954" data-search="Palindromes in base 7 A029954 a029954" aria-label="Palindromes in base 7 (A029954) — open interactive graph">
+<img src="assets/previews/a029954.png" width="640" height="400" alt="Weight–level projection of Palindromes in base 7; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Palindromes in base 7</h2><span>A029954</span></div></a><a class="graph-card" href="explore.html#a029955" data-search="Palindromes in base 9 A029955 a029955" aria-label="Palindromes in base 9 (A029955) — open interactive graph">
+<img src="assets/previews/a029955.png" width="640" height="400" alt="Weight–level projection of Palindromes in base 9; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Palindromes in base 9</h2><span>A029955</span></div></a><a class="graph-card" href="explore.html#a031443" data-search="Balanced binary digits A031443 a031443" aria-label="Balanced binary digits (A031443) — open interactive graph">
+<img src="assets/previews/a031443.png" width="640" height="400" alt="Weight–level projection of Balanced binary digits; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Balanced binary digits</h2><span>A031443</span></div></a><a class="graph-card" href="explore.html#a032924" data-search="Ternary numbers without 0 A032924 a032924" aria-label="Ternary numbers without 0 (A032924) — open interactive graph">
+<img src="assets/previews/a032924.png" width="640" height="400" alt="Weight–level projection of Ternary numbers without 0; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Ternary numbers without 0</h2><span>A032924</span></div></a><a class="graph-card" href="explore.html#a037301" data-search="Equal digit sums in bases 2 and 3 A037301 a037301" aria-label="Equal digit sums in bases 2 and 3 (A037301) — open interactive graph">
+<img src="assets/previews/a037301.png" width="640" height="400" alt="Weight–level projection of Equal digit sums in bases 2 and 3; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Equal digit sums in bases 2 and 3</h2><span>A037301</span></div></a><a class="graph-card" href="explore.html#a037308" data-search="Equal digit sums in bases 2 and 10 A037308 a037308" aria-label="Equal digit sums in bases 2 and 10 (A037308) — open interactive graph">
+<img src="assets/previews/a037308.png" width="640" height="400" alt="Weight–level projection of Equal digit sums in bases 2 and 10; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Equal digit sums in bases 2 and 10</h2><span>A037308</span></div></a><a class="graph-card" href="explore.html#a039004" data-search="Balanced ones and twos in base 4 A039004 a039004" aria-label="Balanced ones and twos in base 4 (A039004) — open interactive graph">
+<img src="assets/previews/a039004.png" width="640" height="400" alt="Weight–level projection of Balanced ones and twos in base 4; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Balanced ones and twos in base 4</h2><span>A039004</span></div></a><a class="graph-card" href="explore.html#a045844" data-search="Largest-digit orbit A045844 a045844" aria-label="Largest-digit orbit (A045844) — open interactive graph">
+<img src="assets/previews/a045844.png" width="640" height="400" alt="Weight–level projection of Largest-digit orbit; natural logarithms on equal scales" loading="lazy" decoding="async">
+<div class="card-label"><h2>Largest-digit orbit</h2><span>A045844</span></div></a></div>
 <div id="gallery-empty" class="gallery-empty" hidden><p>No matching sequences. Try another name or OEIS ID.</p><button id="clear-search" type="button">Clear search</button></div>
 </section>
 <footer class="atlas-footer"><p>Open any preview to explore its full dataset, switch between 2D and 3D, inspect a decomposition or download the loaded CSV.</p><a href="https://decompwlj.com/" target="_blank" rel="noopener">About the decomposition ↗</a></footer>
 </main>
-<noscript>All 100 sequence previews are shown. Enable JavaScript to search the atlas. Interactive graphs require JavaScript and WebGL2.</noscript>
+<noscript>All 140 sequence previews are shown. Enable JavaScript to search the atlas. Interactive graphs require JavaScript and WebGL2.</noscript>
 <script type="module" src="js/home.js"></script>
 </body></html>
