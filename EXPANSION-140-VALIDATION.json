@@ -1,0 +1,227 @@
+{
+  "sequences": [
+    {
+      "id": "a014192",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 27374,
+        "level": 172626,
+        "ties": 16
+      }
+    },
+    {
+      "id": "a029952",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 30711,
+        "level": 169289,
+        "ties": 13
+      }
+    },
+    {
+      "id": "a029953",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 38719,
+        "level": 161281,
+        "ties": 11
+      }
+    },
+    {
+      "id": "a029954",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 38653,
+        "level": 161347,
+        "ties": 24
+      }
+    },
+    {
+      "id": "a029803",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 44080,
+        "level": 155920,
+        "ties": 19
+      }
+    },
+    {
+      "id": "a029955",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 33212,
+        "level": 166788,
+        "ties": 16
+      }
+    },
+    {
+      "id": "a032924",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 190974,
+        "level": 9026,
+        "ties": 0
+      }
+    },
+    {
+      "id": "a023705",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 176972,
+        "level": 23028,
+        "ties": 80
+      }
+    },
+    {
+      "id": "a023733",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 187007,
+        "level": 12993,
+        "ties": 27
+      }
+    },
+    {
+      "id": "a031443",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 177471,
+        "level": 22529,
+        "ties": 29
+      }
+    },
+    {
+      "id": "a037301",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 165899,
+        "level": 34101,
+        "ties": 8
+      }
+    },
+    {
+      "id": "a037308",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 160522,
+        "level": 39478,
+        "ties": 4
+      }
+    },
+    {
+      "id": "a039004",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 179441,
+        "level": 20559,
+        "ties": 1
+      }
+    },
+    {
+      "id": "a027697",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 143132,
+        "level": 56868,
+        "ties": 23
+      }
+    },
+    {
+      "id": "a027699",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 142481,
+        "level": 57519,
+        "ties": 8
+      }
+    },
+    {
+      "id": "a028835",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 177230,
+        "level": 22770,
+        "ties": 76
+      }
+    },
+    {
+      "id": "a029742",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 182025,
+        "level": 17975,
+        "ties": 83
+      }
+    },
+    {
+      "id": "a006364",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 174757,
+        "level": 25243,
+        "ties": 47
+      }
+    },
+    {
+      "id": "a045844",
+      "points": 200000,
+      "referenceRowsMatched": 10000,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 166453,
+        "level": 33547,
+        "ties": 13
+      }
+    },
+    {
+      "id": "a014313",
+      "points": 200000,
+      "referenceRowsMatched": 9999,
+      "independentMinimalityChecks": 72,
+      "classification": {
+        "weight": 183232,
+        "level": 16768,
+        "ties": 5
+      }
+    }
+  ],
+  "originalDatasetsUnchanged": true,
+  "totalPoints": 28000000,
+  "newPoints": 4000000
+}

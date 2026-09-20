@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14T08:14:17.249Z",
+  "date": "2026-09-19T09:17:13.390Z",
   "sequences": [
     {
       "id": "natural",
@@ -600,6 +600,246 @@
       "points": 200000,
       "chunks": 8,
       "excluded": 1
+    },
+    {
+      "id": "a000096",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a000124",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a000384",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a001844",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a002522",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a002620",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a002081",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a003511",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a003512",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a004201",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a004202",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a003796",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004742",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a004743",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004744",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004745",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004746",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004611",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a004613",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a004614",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a014192",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 6
+    },
+    {
+      "id": "a029952",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 6
+    },
+    {
+      "id": "a029953",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a029954",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a029803",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a029955",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a032924",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 17
+    },
+    {
+      "id": "a023705",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a023733",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a031443",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 10
+    },
+    {
+      "id": "a037301",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a037308",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 5
+    },
+    {
+      "id": "a039004",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a027697",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a027699",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a028835",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 3
+    },
+    {
+      "id": "a029742",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 0
+    },
+    {
+      "id": "a006364",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 2
+    },
+    {
+      "id": "a045844",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 4
+    },
+    {
+      "id": "a014313",
+      "points": 200000,
+      "chunks": 8,
+      "excluded": 1
     }
   ],
   "workerTests": [
@@ -610,7 +850,7 @@
     "worker: active load can be terminated after its first chunk",
     "catalogue: 20,000 synthetic entries return only 20 visible results"
   ],
-  "totalPoints": 20000000,
+  "totalPoints": 28000000,
   "browserTested": false,
   "notes": "Node checks exercise real CSV parser and worker modules. WebGL rendering and browser interactions have not been tested in a browser."
 }

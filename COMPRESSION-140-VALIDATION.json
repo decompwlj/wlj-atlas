@@ -1,0 +1,9 @@
+{
+  "chunksVerified": 160,
+  "originalCompressedBytes": 39488226,
+  "optimizedCompressedBytes": 31892547,
+  "bytesSaved": 7595679,
+  "allUncompressedBytesIdentical": true,
+  "staticBytes": 262906710,
+  "expandedArchiveLimit": 268435456
+}

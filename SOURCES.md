@@ -131,3 +131,67 @@ This is the final expansion requested by the owner. No further sequence decompos
 Generation uses exact integer arithmetic, an integer prime-factor sieve with trial factorization beyond its bound, and enumeration of all divisors of a−d to find the least divisor greater than d. Quadratic-form sequences are enumerated directly, ternary palindromes are constructed by reflection, and digit-restricted integers are generated in ascending order. Initial unclassified terms and the source CSV index (starting at 1) are retained. A013939 and A022559 start at 0, matching the source. A018825 starts at 1. Each last retained term uses an explicitly generated successor.
 
 `tools/generate-expansion-100.cpp` is the bounded final generator. `tools/validate-expansion-100.py` compares every published reference CSV row and independently checks sampled minimal weights by trial division over divisor pairs. `EXPANSION-100-VALIDATION.json` records source hashes and verification counts. The first 1,000 source rows per addition are retained in `tools/fixtures/expansion-100/`.
+
+
+## Expansion to 120 sequences — 18 September 2026
+
+The owner explicitly requested 20 further sequences, superseding the earlier 100-sequence limit. Each addition has 200,000 plotted points. The atlas now contains 24,000,000 points in 960 chunks, with six catalogue pages of 20 sequences. All original 100 datasets, previews, styles and application scripts are unchanged. The full homepage gallery has 120 cards.
+
+| OEIS | Sequence | Definition |
+| --- | --- | --- |
+| [A000096](https://oeis.org/A000096) | Triangular numbers plus n | a(n) = n(n + 3)/2, n ≥ 1. |
+| [A000124](https://oeis.org/A000124) | Central polygonal numbers | Lazy caterer numbers, a(n) = n(n + 1)/2 + 1. Positive-index tail n ≥ 1; a(0) = 1 is omitted. |
+| [A000384](https://oeis.org/A000384) | Hexagonal numbers | a(n) = n(2n − 1), n ≥ 1. The OEIS entry also includes a(0) = 0. |
+| [A001844](https://oeis.org/A001844) | Centered square numbers | a(n) = 2n(n + 1) + 1. Positive-index tail n ≥ 1; a(0) = 1 is omitted. |
+| [A002522](https://oeis.org/A002522) | Squares plus one | a(n) = n² + 1. Positive-index tail n ≥ 1; a(0) = 1 is omitted. |
+| [A002620](https://oeis.org/A002620) | Quarter-squares | a(n) = floor(n²/4), strictly increasing tail n ≥ 2. Original OEIS indices retained; a(0) = a(1) = 0 are omitted. |
+| [A002081](https://oeis.org/A002081) | Residues 2, 4, 8, 16 modulo 20 | Positive integers congruent to 2, 4, 8 or 16 modulo 20. |
+| [A003511](https://oeis.org/A003511) | Beatty: (1 + √3)/2 | a(n) = floor(n(1 + √3)/2), computed exactly using integer square roots. |
+| [A003512](https://oeis.org/A003512) | Beatty: 2 + √3 | a(n) = floor(n(2 + √3)), computed exactly using integer square roots. |
+| [A004201](https://oeis.org/A004201) | Take one, skip one, take two… | Take 1 integer, skip 1, take 2, skip 2, and so on, starting with the positive integers. |
+| [A004202](https://oeis.org/A004202) | Skip one, take one, skip two… | Skip 1 integer, take 1, skip 2, take 2, and so on, starting with the positive integers. |
+| [A003796](https://oeis.org/A003796) | Binary numbers without 000 | Nonnegative integers whose binary expansion contains no 000, without leading zeroes; includes 0. |
+| [A004742](https://oeis.org/A004742) | Binary numbers without 101 | Nonnegative integers whose binary expansion contains no 101, without leading zeroes; includes 0. |
+| [A004743](https://oeis.org/A004743) | Binary numbers without 110 | Nonnegative integers whose binary expansion contains no 110, without leading zeroes; includes 0. |
+| [A004744](https://oeis.org/A004744) | Binary numbers without 011 | Nonnegative integers whose binary expansion contains no 011, without leading zeroes; includes 0. |
+| [A004745](https://oeis.org/A004745) | Binary numbers without 001 | Nonnegative integers whose binary expansion contains no 001, without leading zeroes; includes 0. |
+| [A004746](https://oeis.org/A004746) | Binary numbers without 010 | Nonnegative integers whose binary expansion contains no 010, without leading zeroes; includes 0. |
+| [A004611](https://oeis.org/A004611) | Prime factors ≡ 1 (mod 3) | Positive integers whose prime divisors are all congruent to 1 modulo 3; includes 1. |
+| [A004613](https://oeis.org/A004613) | Prime factors ≡ 1 (mod 4) | Positive integers whose prime divisors are all congruent to 1 modulo 4; includes 1. |
+| [A004614](https://oeis.org/A004614) | Prime factors ≡ 3 (mod 4) | Positive integers whose prime divisors are all congruent to 3 modulo 4; includes 1. |
+
+Generation: `tools/generate-expansion-120.cpp`; packaging: `tools/pack-data.mjs` with the 20 new IDs; gallery extension: `tools/extend-gallery-120.py`. Full reference CSVs from decompwlj.com are retained in `tools/fixtures/expansion-120/`. The six quadratic/quasi-polynomial datasets each contain 200,000 level-classified points. This is a finite-dataset observation. `EXPANSION-120-VALIDATION.json` records the checks, including independent minimal-divisor samples. `VALIDATION.json` records successful verification of all 24 million plotted rows and worker tests.
+
+
+## Expansion to 140 sequences — 19 September 2026
+
+Twenty numeral-base and digit-pattern sequences add 4,000,000 plotted points. The atlas contains 140 sequences, 28,000,000 plotted points, 1,120 compressed chunks and seven catalogue pages. All original 120 datasets, previews and gallery cards are preserved, as are the design, controls, scripts and styles. Only the catalogue, new cards and displayed totals were extended.
+
+| OEIS | Sequence | Definition |
+| --- | --- | --- |
+| [A014192](https://oeis.org/A014192) | Palindromes in base 4 | Nonnegative integers whose base-4 expansion is palindromic, without leading zeroes; includes 0. [Reference CSV](https://decompwlj.com/csv/A014192decomp.csv) |
+| [A029952](https://oeis.org/A029952) | Palindromes in base 5 | Nonnegative integers whose base-5 expansion is palindromic, without leading zeroes; includes 0. [Reference CSV](https://decompwlj.com/csv/A029952decomp.csv) |
+| [A029953](https://oeis.org/A029953) | Palindromes in base 6 | Nonnegative integers whose base-6 expansion is palindromic, without leading zeroes; includes 0. [Reference CSV](https://decompwlj.com/csv/A029953decomp.csv) |
+| [A029954](https://oeis.org/A029954) | Palindromes in base 7 | Nonnegative integers whose base-7 expansion is palindromic, without leading zeroes; includes 0. [Reference CSV](https://decompwlj.com/csv/A029954decomp.csv) |
+| [A029803](https://oeis.org/A029803) | Palindromes in base 8 | Nonnegative integers whose base-8 expansion is palindromic, without leading zeroes; includes 0. [Reference CSV](https://decompwlj.com/csv/A029803decomp.csv) |
+| [A029955](https://oeis.org/A029955) | Palindromes in base 9 | Nonnegative integers whose base-9 expansion is palindromic, without leading zeroes; includes 0. [Reference CSV](https://decompwlj.com/csv/A029955decomp.csv) |
+| [A032924](https://oeis.org/A032924) | Ternary numbers without 0 | Positive integers whose base-3 expansion has only the digits 1 and 2. [Reference CSV](https://decompwlj.com/csv/A032924decomp.csv) |
+| [A023705](https://oeis.org/A023705) | Base-4 numbers without 0 | Positive integers whose base-4 expansion has only the digits 1, 2 and 3. [Reference CSV](https://decompwlj.com/csv/A023705decomp.csv) |
+| [A023733](https://oeis.org/A023733) | Base-5 numbers without 3 | Nonnegative integers whose base-5 expansion contains no digit 3; includes 0. [Reference CSV](https://decompwlj.com/csv/A023733decomp.csv) |
+| [A031443](https://oeis.org/A031443) | Balanced binary digits | Positive integers with equally many zeroes and ones in binary, without leading zeroes. [Reference CSV](https://decompwlj.com/csv/A031443decomp.csv) |
+| [A037301](https://oeis.org/A037301) | Equal digit sums in bases 2 and 3 | Nonnegative integers whose binary and ternary digit sums are equal; includes 0. [Reference CSV](https://decompwlj.com/csv/A037301decomp.csv) |
+| [A037308](https://oeis.org/A037308) | Equal digit sums in bases 2 and 10 | Nonnegative integers whose binary and decimal digit sums are equal; includes 0. [Reference CSV](https://decompwlj.com/csv/A037308decomp.csv) |
+| [A039004](https://oeis.org/A039004) | Balanced ones and twos in base 4 | Nonnegative integers with equally many digits 1 and 2 in base 4; includes 0. [Reference CSV](https://decompwlj.com/csv/A039004decomp.csv) |
+| [A027697](https://oeis.org/A027697) | Odious primes | Primes with an odd number of ones in their binary expansion. [Reference CSV](https://decompwlj.com/csv/A027697decomp.csv) |
+| [A027699](https://oeis.org/A027699) | Evil primes | Primes with an even number of ones in their binary expansion. [Reference CSV](https://decompwlj.com/csv/A027699decomp.csv) |
+| [A028835](https://oeis.org/A028835) | Prime decimal digital root | Positive integers whose decimal digital root is 2, 3, 5 or 7. [Reference CSV](https://decompwlj.com/csv/A028835decomp.csv) |
+| [A029742](https://oeis.org/A029742) | Decimal nonpalindromes | Positive integers whose decimal expansion is not palindromic. [Reference CSV](https://decompwlj.com/csv/A029742decomp.csv) |
+| [A006364](https://oeis.org/A006364) | Even binary parity above the last bit | Nonnegative integers for which the binary expansion, ignoring the least significant bit, contains an even number of ones; includes 0. [Reference CSV](https://decompwlj.com/csv/A006364decomp.csv) |
+| [A045844](https://oeis.org/A045844) | Largest-digit orbit | Start at 1; obtain each successive term by adding the largest decimal digit of the current term. [Reference CSV](https://decompwlj.com/csv/A045844decomp.csv) |
+| [A014313](https://oeis.org/A014313) | Exactly five binary ones | Positive integers whose binary expansion has exactly five ones. [Reference CSV](https://decompwlj.com/csv/A014313decomp.csv) |
+
+Generation: `tools/generate-expansion-140.cpp`; packaging: `tools/pack-data.mjs` with only the 20 new IDs; gallery extension: `tools/extend-gallery-140.py`. Each sequence contains 200,000 plotted points. Atlas indices begin at 1 following the reference CSVs, including any initial excluded terms; these are not necessarily OEIS offsets. The final plotted term uses its actual successor to determine the jump.
+
+Full reference tables are retained in `tools/fixtures/expansion-140/`. All 199,981 reference rows match exactly, including indices, terms, weights, levels and jumps. `EXPANSION-140-VALIDATION.json` records 1,440 independent minimal-divisor checks and preservation of the original datasets. `VALIDATION.json` records verification of all 28 million plotted rows, chunk checksums and viewer worker behavior.
+
+Publication size: `tools/compress-expansion-140.py` applies stronger gzip-compatible compression only to the 160 new chunks. All uncompressed CSV bytes and SHA-256 content hashes are unchanged; the original 120 datasets remain byte-for-byte unchanged. `COMPRESSION-140-VALIDATION.json` records the verified size reduction required by the hosting archive limit.

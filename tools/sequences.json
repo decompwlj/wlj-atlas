@@ -883,5 +883,397 @@
     "description": "a(n) = floor(n√7), for n ≥ 1; computed with an exact integer square root.",
     "source": "https://decompwlj.com/2dgraphs.php?page=23",
     "sourceCSV": "https://decompwlj.com/csv/A022841decomp.csv"
+  },
+  {
+    "id": "a000096",
+    "name": "Triangular numbers plus n",
+    "oeis": "A000096",
+    "family": "POLYNOMIAL",
+    "description": "a(n) = n(n + 3)/2, n ≥ 1.",
+    "source": "https://oeis.org/A000096",
+    "sourceCSV": "https://decompwlj.com/csv/A000096decomp.csv"
+  },
+  {
+    "id": "a000124",
+    "name": "Central polygonal numbers",
+    "oeis": "A000124",
+    "family": "POLYNOMIAL",
+    "description": "Lazy caterer numbers, a(n) = n(n + 1)/2 + 1. Positive-index tail n ≥ 1; a(0) = 1 is omitted.",
+    "source": "https://oeis.org/A000124",
+    "sourceCSV": "https://decompwlj.com/csv/A000124decomp.csv",
+    "omittedPrefix": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "a000384",
+    "name": "Hexagonal numbers",
+    "oeis": "A000384",
+    "family": "FIGURATE",
+    "description": "a(n) = n(2n − 1), n ≥ 1. The OEIS entry also includes a(0) = 0.",
+    "source": "https://oeis.org/A000384",
+    "omittedPrefix": [
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "a001844",
+    "name": "Centered square numbers",
+    "oeis": "A001844",
+    "family": "FIGURATE",
+    "description": "a(n) = 2n(n + 1) + 1. Positive-index tail n ≥ 1; a(0) = 1 is omitted.",
+    "source": "https://oeis.org/A001844",
+    "omittedPrefix": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "a002522",
+    "name": "Squares plus one",
+    "oeis": "A002522",
+    "family": "POLYNOMIAL",
+    "description": "a(n) = n² + 1. Positive-index tail n ≥ 1; a(0) = 1 is omitted.",
+    "source": "https://oeis.org/A002522",
+    "omittedPrefix": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  {
+    "id": "a002620",
+    "name": "Quarter-squares",
+    "oeis": "A002620",
+    "family": "QUASI-POLYNOMIAL",
+    "description": "a(n) = floor(n²/4), strictly increasing tail n ≥ 2. Original OEIS indices retained; a(0) = a(1) = 0 are omitted.",
+    "source": "https://oeis.org/A002620",
+    "sourceCSV": "https://decompwlj.com/csv/A002620decomp.csv",
+    "indexOrigin": 2,
+    "omittedPrefix": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "a002081",
+    "name": "Residues 2, 4, 8, 16 modulo 20",
+    "oeis": "A002081",
+    "family": "MODULAR",
+    "description": "Positive integers congruent to 2, 4, 8 or 16 modulo 20.",
+    "source": "https://oeis.org/A002081",
+    "sourceCSV": "https://decompwlj.com/csv/A002081decomp.csv"
+  },
+  {
+    "id": "a003511",
+    "name": "Beatty: (1 + √3)/2",
+    "oeis": "A003511",
+    "family": "BEATTY",
+    "description": "a(n) = floor(n(1 + √3)/2), computed exactly using integer square roots.",
+    "source": "https://oeis.org/A003511",
+    "sourceCSV": "https://decompwlj.com/csv/A003511decomp.csv"
+  },
+  {
+    "id": "a003512",
+    "name": "Beatty: 2 + √3",
+    "oeis": "A003512",
+    "family": "BEATTY",
+    "description": "a(n) = floor(n(2 + √3)), computed exactly using integer square roots.",
+    "source": "https://oeis.org/A003512",
+    "sourceCSV": "https://decompwlj.com/csv/A003512decomp.csv"
+  },
+  {
+    "id": "a004201",
+    "name": "Take one, skip one, take two…",
+    "oeis": "A004201",
+    "family": "BLOCK PATTERN",
+    "description": "Take 1 integer, skip 1, take 2, skip 2, and so on, starting with the positive integers.",
+    "source": "https://oeis.org/A004201",
+    "sourceCSV": "https://decompwlj.com/csv/A004201decomp.csv"
+  },
+  {
+    "id": "a004202",
+    "name": "Skip one, take one, skip two…",
+    "oeis": "A004202",
+    "family": "BLOCK PATTERN",
+    "description": "Skip 1 integer, take 1, skip 2, take 2, and so on, starting with the positive integers.",
+    "source": "https://oeis.org/A004202",
+    "sourceCSV": "https://decompwlj.com/csv/A004202decomp.csv"
+  },
+  {
+    "id": "a003796",
+    "name": "Binary numbers without 000",
+    "oeis": "A003796",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no 000, without leading zeroes; includes 0.",
+    "source": "https://oeis.org/A003796",
+    "sourceCSV": "https://decompwlj.com/csv/A003796decomp.csv"
+  },
+  {
+    "id": "a004742",
+    "name": "Binary numbers without 101",
+    "oeis": "A004742",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no 101, without leading zeroes; includes 0.",
+    "source": "https://oeis.org/A004742",
+    "sourceCSV": "https://decompwlj.com/csv/A004742decomp.csv"
+  },
+  {
+    "id": "a004743",
+    "name": "Binary numbers without 110",
+    "oeis": "A004743",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no 110, without leading zeroes; includes 0.",
+    "source": "https://oeis.org/A004743",
+    "sourceCSV": "https://decompwlj.com/csv/A004743decomp.csv"
+  },
+  {
+    "id": "a004744",
+    "name": "Binary numbers without 011",
+    "oeis": "A004744",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no 011, without leading zeroes; includes 0.",
+    "source": "https://oeis.org/A004744",
+    "sourceCSV": "https://decompwlj.com/csv/A004744decomp.csv"
+  },
+  {
+    "id": "a004745",
+    "name": "Binary numbers without 001",
+    "oeis": "A004745",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no 001, without leading zeroes; includes 0.",
+    "source": "https://oeis.org/A004745",
+    "sourceCSV": "https://decompwlj.com/csv/A004745decomp.csv"
+  },
+  {
+    "id": "a004746",
+    "name": "Binary numbers without 010",
+    "oeis": "A004746",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary expansion contains no 010, without leading zeroes; includes 0.",
+    "source": "https://oeis.org/A004746",
+    "sourceCSV": "https://decompwlj.com/csv/A004746decomp.csv"
+  },
+  {
+    "id": "a004611",
+    "name": "Prime factors ≡ 1 (mod 3)",
+    "oeis": "A004611",
+    "family": "FACTORIZATION",
+    "description": "Positive integers whose prime divisors are all congruent to 1 modulo 3; includes 1.",
+    "source": "https://oeis.org/A004611",
+    "sourceCSV": "https://decompwlj.com/csv/A004611decomp.csv"
+  },
+  {
+    "id": "a004613",
+    "name": "Prime factors ≡ 1 (mod 4)",
+    "oeis": "A004613",
+    "family": "FACTORIZATION",
+    "description": "Positive integers whose prime divisors are all congruent to 1 modulo 4; includes 1.",
+    "source": "https://oeis.org/A004613",
+    "sourceCSV": "https://decompwlj.com/csv/A004613decomp.csv"
+  },
+  {
+    "id": "a004614",
+    "name": "Prime factors ≡ 3 (mod 4)",
+    "oeis": "A004614",
+    "family": "FACTORIZATION",
+    "description": "Positive integers whose prime divisors are all congruent to 3 modulo 4; includes 1.",
+    "source": "https://oeis.org/A004614",
+    "sourceCSV": "https://decompwlj.com/csv/A004614decomp.csv"
+  },
+  {
+    "id": "a014192",
+    "name": "Palindromes in base 4",
+    "oeis": "A014192",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-4 expansion is palindromic, without leading zeroes; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014192decomp.csv"
+  },
+  {
+    "id": "a029952",
+    "name": "Palindromes in base 5",
+    "oeis": "A029952",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-5 expansion is palindromic, without leading zeroes; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=27",
+    "sourceCSV": "https://decompwlj.com/csv/A029952decomp.csv"
+  },
+  {
+    "id": "a029953",
+    "name": "Palindromes in base 6",
+    "oeis": "A029953",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-6 expansion is palindromic, without leading zeroes; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=28",
+    "sourceCSV": "https://decompwlj.com/csv/A029953decomp.csv"
+  },
+  {
+    "id": "a029954",
+    "name": "Palindromes in base 7",
+    "oeis": "A029954",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-7 expansion is palindromic, without leading zeroes; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=28",
+    "sourceCSV": "https://decompwlj.com/csv/A029954decomp.csv"
+  },
+  {
+    "id": "a029803",
+    "name": "Palindromes in base 8",
+    "oeis": "A029803",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-8 expansion is palindromic, without leading zeroes; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=27",
+    "sourceCSV": "https://decompwlj.com/csv/A029803decomp.csv"
+  },
+  {
+    "id": "a029955",
+    "name": "Palindromes in base 9",
+    "oeis": "A029955",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-9 expansion is palindromic, without leading zeroes; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=28",
+    "sourceCSV": "https://decompwlj.com/csv/A029955decomp.csv"
+  },
+  {
+    "id": "a032924",
+    "name": "Ternary numbers without 0",
+    "oeis": "A032924",
+    "family": "DIGITS",
+    "description": "Positive integers whose base-3 expansion has only the digits 1 and 2. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=30",
+    "sourceCSV": "https://decompwlj.com/csv/A032924decomp.csv"
+  },
+  {
+    "id": "a023705",
+    "name": "Base-4 numbers without 0",
+    "oeis": "A023705",
+    "family": "DIGITS",
+    "description": "Positive integers whose base-4 expansion has only the digits 1, 2 and 3. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=24",
+    "sourceCSV": "https://decompwlj.com/csv/A023705decomp.csv"
+  },
+  {
+    "id": "a023733",
+    "name": "Base-5 numbers without 3",
+    "oeis": "A023733",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose base-5 expansion contains no digit 3; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=24",
+    "sourceCSV": "https://decompwlj.com/csv/A023733decomp.csv"
+  },
+  {
+    "id": "a031443",
+    "name": "Balanced binary digits",
+    "oeis": "A031443",
+    "family": "DIGITS",
+    "description": "Positive integers with equally many zeroes and ones in binary, without leading zeroes. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=29",
+    "sourceCSV": "https://decompwlj.com/csv/A031443decomp.csv"
+  },
+  {
+    "id": "a037301",
+    "name": "Equal digit sums in bases 2 and 3",
+    "oeis": "A037301",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary and ternary digit sums are equal; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=34",
+    "sourceCSV": "https://decompwlj.com/csv/A037301decomp.csv"
+  },
+  {
+    "id": "a037308",
+    "name": "Equal digit sums in bases 2 and 10",
+    "oeis": "A037308",
+    "family": "DIGITS",
+    "description": "Nonnegative integers whose binary and decimal digit sums are equal; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=34",
+    "sourceCSV": "https://decompwlj.com/csv/A037308decomp.csv"
+  },
+  {
+    "id": "a039004",
+    "name": "Balanced ones and twos in base 4",
+    "oeis": "A039004",
+    "family": "DIGITS",
+    "description": "Nonnegative integers with equally many digits 1 and 2 in base 4; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=36",
+    "sourceCSV": "https://decompwlj.com/csv/A039004decomp.csv"
+  },
+  {
+    "id": "a027697",
+    "name": "Odious primes",
+    "oeis": "A027697",
+    "family": "DIGITS",
+    "description": "Primes with an odd number of ones in their binary expansion. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=26",
+    "sourceCSV": "https://decompwlj.com/csv/A027697decomp.csv"
+  },
+  {
+    "id": "a027699",
+    "name": "Evil primes",
+    "oeis": "A027699",
+    "family": "DIGITS",
+    "description": "Primes with an even number of ones in their binary expansion. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=26",
+    "sourceCSV": "https://decompwlj.com/csv/A027699decomp.csv"
+  },
+  {
+    "id": "a028835",
+    "name": "Prime decimal digital root",
+    "oeis": "A028835",
+    "family": "DIGITS",
+    "description": "Positive integers whose decimal digital root is 2, 3, 5 or 7. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=27",
+    "sourceCSV": "https://decompwlj.com/csv/A028835decomp.csv"
+  },
+  {
+    "id": "a029742",
+    "name": "Decimal nonpalindromes",
+    "oeis": "A029742",
+    "family": "DIGITS",
+    "description": "Positive integers whose decimal expansion is not palindromic. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=27",
+    "sourceCSV": "https://decompwlj.com/csv/A029742decomp.csv"
+  },
+  {
+    "id": "a006364",
+    "name": "Even binary parity above the last bit",
+    "oeis": "A006364",
+    "family": "DIGITS",
+    "description": "Nonnegative integers for which the binary expansion, ignoring the least significant bit, contains an even number of ones; includes 0. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=14",
+    "sourceCSV": "https://decompwlj.com/csv/A006364decomp.csv"
+  },
+  {
+    "id": "a045844",
+    "name": "Largest-digit orbit",
+    "oeis": "A045844",
+    "family": "DIGITS",
+    "description": "Start at 1; obtain each successive term by adding the largest decimal digit of the current term. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=38",
+    "sourceCSV": "https://decompwlj.com/csv/A045844decomp.csv"
+  },
+  {
+    "id": "a014313",
+    "name": "Exactly five binary ones",
+    "oeis": "A014313",
+    "family": "DIGITS",
+    "description": "Positive integers whose binary expansion has exactly five ones. Atlas indices start at 1, following the reference CSV.",
+    "source": "https://decompwlj.com/2dgraphs.php?page=20",
+    "sourceCSV": "https://decompwlj.com/csv/A014313decomp.csv"
   }
 ]

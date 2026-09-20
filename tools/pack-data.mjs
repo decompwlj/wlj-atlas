@@ -11,7 +11,7 @@ for(const id of selected)if(!registry.some(s=>s.id===id))throw Error(`Unknown se
 const data=path.join(root,'dist/data');
 const chunkSize=25000, pageSize=20;
 registry.sort((a,b)=>Number(a.oeis.slice(1))-Number(b.oeis.slice(1)));
-if(registry.length>100)throw Error("Atlas is closed at 100 sequences; no further decomposition additions.");
+if(registry.length>140)throw Error("This atlas expansion is limited to 140 sequences.");
 await fs.mkdir(path.join(data,'catalog'),{recursive:true});
 const json=(f,v)=>fs.writeFile(f,JSON.stringify(v));
 const digest=s=>crypto.createHash('sha256').update(s).digest('hex');
